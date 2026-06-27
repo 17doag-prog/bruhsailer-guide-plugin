@@ -1,0 +1,1226 @@
+[
+  {
+    "dir": "akingdomdivided",
+    "file": "AKingdomDivided.java"
+  },
+  {
+    "dir": "akingdomdivided",
+    "file": "StatuePuzzle.java"
+  },
+  {
+    "dir": "akingdomdivided",
+    "file": "StonePuzzleStep.java"
+  },
+  {
+    "dir": "akingdomdivided",
+    "file": "XericsLookoutStepper.java"
+  },
+  {
+    "dir": "anightatthetheatre",
+    "file": "ANightAtTheTheatre.java"
+  },
+  {
+    "dir": "animalmagnetism",
+    "file": "AnimalMagnetism.java"
+  },
+  {
+    "dir": "animalmagnetism",
+    "file": "PuzzleSolver.java"
+  },
+  {
+    "dir": "anothersliceofham",
+    "file": "AnotherSliceOfHam.java"
+  },
+  {
+    "dir": "aporcineofinterest",
+    "file": "APorcineOfInterest.java"
+  },
+  {
+    "dir": "asoulsbane",
+    "file": "ASoulsBane.java"
+  },
+  {
+    "dir": "atailoftwocats",
+    "file": "ATailOfTwoCats.java"
+  },
+  {
+    "dir": "atasteofhope",
+    "file": "ATasteOfHope.java"
+  },
+  {
+    "dir": "atfirstlight",
+    "file": "AtFirstLight.java"
+  },
+  {
+    "dir": "bearyoursoul",
+    "file": "BearYourSoul.java"
+  },
+  {
+    "dir": "belowicemountain",
+    "file": "BelowIceMountain.java"
+  },
+  {
+    "dir": "beneathcursedsands",
+    "file": "BeneathCursedSands.java"
+  },
+  {
+    "dir": "beneathcursedsands",
+    "file": "TombRiddle.java"
+  },
+  {
+    "dir": "betweenarock",
+    "file": "BetweenARock.java"
+  },
+  {
+    "dir": "betweenarock",
+    "file": "PuzzleStep.java"
+  },
+  {
+    "dir": "bigchompybirdhunting",
+    "file": "BigChompyBirdHunting.java"
+  },
+  {
+    "dir": "biohazard",
+    "file": "Biohazard.java"
+  },
+  {
+    "dir": "biohazard",
+    "file": "GiveIngredientsToHelpersStep.java"
+  },
+  {
+    "dir": "blackknightfortress",
+    "file": "BlackKnightFortress.java"
+  },
+  {
+    "dir": "bonevoyage",
+    "file": "BoneVoyage.java"
+  },
+  {
+    "dir": "cabinfever",
+    "file": "CabinFever.java"
+  },
+  {
+    "dir": "childrenofthesun",
+    "file": "ChildrenOfTheSun.java"
+  },
+  {
+    "dir": "clientofkourend",
+    "file": "ClientOfKourend.java"
+  },
+  {
+    "dir": "clocktower",
+    "file": "ClockTower.java"
+  },
+  {
+    "dir": "coldwar",
+    "file": "ColdWar.java"
+  },
+  {
+    "dir": "coldwar",
+    "file": "PenguinEmote.java"
+  },
+  {
+    "dir": "contact",
+    "file": "Contact.java"
+  },
+  {
+    "dir": "cooksassistant",
+    "file": "CooksAssistant.java"
+  },
+  {
+    "dir": "creatureoffenkenstrain",
+    "file": "CreatureOfFenkenstrain.java"
+  },
+  {
+    "dir": "currentaffairs",
+    "file": "CurrentAffairs.java"
+  },
+  {
+    "dir": "darknessofhallowvale",
+    "file": "DarknessOfHallowvale.java"
+  },
+  {
+    "dir": "deathontheisle",
+    "file": "DeathOnTheIsle.java"
+  },
+  {
+    "dir": "deathplateau",
+    "file": "DeathPlateau.java"
+  },
+  {
+    "dir": "deathtothedorgeshuun",
+    "file": "DeathToTheDorgeshuun.java"
+  },
+  {
+    "dir": "defenderofvarrock",
+    "file": "DefenderOfVarrock.java"
+  },
+  {
+    "dir": "demonslayer",
+    "file": "DemonSlayer.java"
+  },
+  {
+    "dir": "demonslayer",
+    "file": "IncantationStep.java"
+  },
+  {
+    "dir": "deserttreasure",
+    "file": "DesertTreasure.java"
+  },
+  {
+    "dir": "deserttreasure",
+    "file": "GiveItems.java"
+  },
+  {
+    "dir": "deserttreasureii",
+    "file": "ChestCodeStep.java"
+  },
+  {
+    "dir": "deserttreasureii",
+    "file": "DesertTreasureII.java"
+  },
+  {
+    "dir": "deserttreasureii",
+    "file": "GolemPuzzleStep.java"
+  },
+  {
+    "dir": "deserttreasureii",
+    "file": "GrowthPuzzleStep.java"
+  },
+  {
+    "dir": "deserttreasureii",
+    "file": "MemoryPuzzle.java"
+  },
+  {
+    "dir": "deserttreasureii",
+    "file": "PerseriyaSteps.java"
+  },
+  {
+    "dir": "deserttreasureii",
+    "file": "SucellusSteps.java"
+  },
+  {
+    "dir": "deserttreasureii",
+    "file": "VardorvisSteps.java"
+  },
+  {
+    "dir": "deserttreasureii",
+    "file": "WhispererSteps.java"
+  },
+  {
+    "dir": "deviousminds",
+    "file": "DeviousMinds.java"
+  },
+  {
+    "dir": "doricsquest",
+    "file": "DoricsQuest.java"
+  },
+  {
+    "dir": "dragonslayer",
+    "file": "DragonSlayer.java"
+  },
+  {
+    "dir": "dragonslayerii",
+    "file": "CryptPuzzle.java"
+  },
+  {
+    "dir": "dragonslayerii",
+    "file": "DragonSlayerII.java"
+  },
+  {
+    "dir": "dragonslayerii",
+    "file": "MapPuzzle.java"
+  },
+  {
+    "dir": "dreammentor",
+    "file": "CyrisusArmourSet.java"
+  },
+  {
+    "dir": "dreammentor",
+    "file": "CyrisusBankConditional.java"
+  },
+  {
+    "dir": "dreammentor",
+    "file": "CyrisusBankItem.java"
+  },
+  {
+    "dir": "dreammentor",
+    "file": "DreamMentor.java"
+  },
+  {
+    "dir": "dreammentor",
+    "file": "SelectingCombatGear.java"
+  },
+  {
+    "dir": "druidicritual",
+    "file": "DruidicRitual.java"
+  },
+  {
+    "dir": "dwarfcannon",
+    "file": "DwarfCannon.java"
+  },
+  {
+    "dir": "eadgarsruse",
+    "file": "EadgarsRuse.java"
+  },
+  {
+    "dir": "eaglespeak",
+    "file": "EaglesPeak.java"
+  },
+  {
+    "dir": "elementalworkshopi",
+    "file": "ElementalWorkshopI.java"
+  },
+  {
+    "dir": "elementalworkshopii",
+    "file": "ConnectPipes.java"
+  },
+  {
+    "dir": "elementalworkshopii",
+    "file": "ElementalWorkshopII.java"
+  },
+  {
+    "dir": "enakhraslament",
+    "file": "EnakhrasLament.java"
+  },
+  {
+    "dir": "enlightenedjourney",
+    "file": "BalloonFlightStep.java"
+  },
+  {
+    "dir": "enlightenedjourney",
+    "file": "CastleWarsBalloonFlight.java"
+  },
+  {
+    "dir": "enlightenedjourney",
+    "file": "CraftingGuildBalloonFlight.java"
+  },
+  {
+    "dir": "enlightenedjourney",
+    "file": "EnlightenedJourney.java"
+  },
+  {
+    "dir": "enlightenedjourney",
+    "file": "GiveAugusteItems.java"
+  },
+  {
+    "dir": "enlightenedjourney",
+    "file": "GrandTreeBalloonFlight.java"
+  },
+  {
+    "dir": "enlightenedjourney",
+    "file": "TaverleyBalloonFlight.java"
+  },
+  {
+    "dir": "enlightenedjourney",
+    "file": "VarrockBalloonFlight.java"
+  },
+  {
+    "dir": "entertheabyss",
+    "file": "EnterTheAbyss.java"
+  },
+  {
+    "dir": "ernestthechicken",
+    "file": "ErnestTheChicken.java"
+  },
+  {
+    "dir": "ethicallyacquiredantiquities",
+    "file": "EthicallyAcquiredAntiquities.java"
+  },
+  {
+    "dir": "fairytalei",
+    "file": "FairytaleI.java"
+  },
+  {
+    "dir": "fairytaleii",
+    "file": "FairytaleII.java"
+  },
+  {
+    "dir": "familycrest",
+    "file": "FamilyCrest.java"
+  },
+  {
+    "dir": "fightarena",
+    "file": "FightArena.java"
+  },
+  {
+    "dir": "fishingcontest",
+    "file": "FishingContest.java"
+  },
+  {
+    "dir": "forgettabletale",
+    "file": "ForgettableTale.java"
+  },
+  {
+    "dir": "gardenoftranquility",
+    "file": "GardenOfTranquillity.java"
+  },
+  {
+    "dir": "gertrudescat",
+    "file": "GertrudesCat.java"
+  },
+  {
+    "dir": "gettingahead",
+    "file": "GettingAhead.java"
+  },
+  {
+    "dir": "ghostsahoy",
+    "file": "DyeShipSteps.java"
+  },
+  {
+    "dir": "ghostsahoy",
+    "file": "GhostsAhoy.java"
+  },
+  {
+    "dir": "goblindiplomacy",
+    "file": "GoblinDiplomacy.java"
+  },
+  {
+    "dir": "grimtales",
+    "file": "GrimTales.java"
+  },
+  {
+    "dir": "hauntedmine",
+    "file": "HauntedMine.java"
+  },
+  {
+    "dir": "hazeelcult",
+    "file": "HazeelCult.java"
+  },
+  {
+    "dir": "hazeelcult",
+    "file": "HazeelValves.java"
+  },
+  {
+    "dir": "heroesquest",
+    "file": "HeroesQuest.java"
+  },
+  {
+    "dir": "holygrail",
+    "file": "HolyGrail.java"
+  },
+  {
+    "dir": "horrorfromthedeep",
+    "file": "HorrorFromTheDeep.java"
+  },
+  {
+    "dir": "icthlarinslittlehelper",
+    "file": "DoorPuzzleStep.java"
+  },
+  {
+    "dir": "icthlarinslittlehelper",
+    "file": "IcthlarinsLittleHelper.java"
+  },
+  {
+    "dir": "impcatcher",
+    "file": "ImpCatcher.java"
+  },
+  {
+    "dir": "inaidofthemyreque",
+    "file": "FillBurghCrate.java"
+  },
+  {
+    "dir": "inaidofthemyreque",
+    "file": "InAidOfTheMyreque.java"
+  },
+  {
+    "dir": "insearchofknowledge",
+    "file": "FeedingAimeri.java"
+  },
+  {
+    "dir": "insearchofknowledge",
+    "file": "InSearchOfKnowledge.java"
+  },
+  {
+    "dir": "insearchofthemyreque",
+    "file": "InSearchOfTheMyreque.java"
+  },
+  {
+    "dir": "junglepotion",
+    "file": "JunglePotion.java"
+  },
+  {
+    "dir": "kingsransom",
+    "file": "KingsRansom.java"
+  },
+  {
+    "dir": "kingsransom",
+    "file": "LockpickPuzzle.java"
+  },
+  {
+    "dir": "landofthegoblins",
+    "file": "LandOfTheGoblins.java"
+  },
+  {
+    "dir": "legendsquest",
+    "file": "LegendsQuest.java"
+  },
+  {
+    "dir": "lostcity",
+    "file": "LostCity.java"
+  },
+  {
+    "dir": "lunardiplomacy",
+    "file": "BringLunarItems.java"
+  },
+  {
+    "dir": "lunardiplomacy",
+    "file": "ChanceChallenge.java"
+  },
+  {
+    "dir": "lunardiplomacy",
+    "file": "LunarDiplomacy.java"
+  },
+  {
+    "dir": "lunardiplomacy",
+    "file": "MemoryChallenge.java"
+  },
+  {
+    "dir": "lunardiplomacy",
+    "file": "MimicChallenge.java"
+  },
+  {
+    "dir": "lunardiplomacy",
+    "file": "NumberChallenge.java"
+  },
+  {
+    "dir": "makingfriendswithmyarm",
+    "file": "MakingFriendsWithMyArm.java"
+  },
+  {
+    "dir": "makinghistory",
+    "file": "MakingHistory.java"
+  },
+  {
+    "dir": "meatandgreet",
+    "file": "MeatAndGreet.java"
+  },
+  {
+    "dir": "merlinscrystal",
+    "file": "MerlinsCrystal.java"
+  },
+  {
+    "dir": "misthalinmystery",
+    "file": "MisthalinMystery.java"
+  },
+  {
+    "dir": "monkeymadnessii",
+    "file": "AgilityDungeonSteps.java"
+  },
+  {
+    "dir": "monkeymadnessii",
+    "file": "MM2AgilityNodes.java"
+  },
+  {
+    "dir": "monkeymadnessii",
+    "file": "MM2Route.java"
+  },
+  {
+    "dir": "monkeymadnessii",
+    "file": "MM2Sabotage.java"
+  },
+  {
+    "dir": "monkeymadnessii",
+    "file": "MonkeyMadnessII.java"
+  },
+  {
+    "dir": "monkeymadnessi",
+    "file": "MonkeyMadnessI.java"
+  },
+  {
+    "dir": "monksfriend",
+    "file": "MonksFriend.java"
+  },
+  {
+    "dir": "mountaindaughter",
+    "file": "MountainDaughter.java"
+  },
+  {
+    "dir": "mourningsendpartii",
+    "file": "MourningsEndPartII.java"
+  },
+  {
+    "dir": "mourningsendparti",
+    "file": "MourningsEndPartI.java"
+  },
+  {
+    "dir": "murdermystery",
+    "file": "MurderMystery.java"
+  },
+  {
+    "dir": "myarmsbigadventure",
+    "file": "AddCompost.java"
+  },
+  {
+    "dir": "myarmsbigadventure",
+    "file": "AddDung.java"
+  },
+  {
+    "dir": "myarmsbigadventure",
+    "file": "MyArmsBigAdventure.java"
+  },
+  {
+    "dir": "naturespirit",
+    "file": "NatureSpirit.java"
+  },
+  {
+    "dir": "observatoryquest",
+    "file": "ObservatoryQuest.java"
+  },
+  {
+    "dir": "olafsquest",
+    "file": "OlafsQuest.java"
+  },
+  {
+    "dir": "olafsquest",
+    "file": "PaintingWall.java"
+  },
+  {
+    "dir": "onesmallfavour",
+    "file": "OneSmallFavour.java"
+  },
+  {
+    "dir": "pandemonium",
+    "file": "Pandemonium.java"
+  },
+  {
+    "dir": "perilousmoon",
+    "file": "PerilousMoon.java"
+  },
+  {
+    "dir": "piratestreasure",
+    "file": "PiratesTreasure.java"
+  },
+  {
+    "dir": "piratestreasure",
+    "file": "RumSmugglingStep.java"
+  },
+  {
+    "dir": "plaguecity",
+    "file": "PlagueCity.java"
+  },
+  {
+    "dir": "priestinperil",
+    "file": "BringDrezelPureEssenceStep.java"
+  },
+  {
+    "dir": "priestinperil",
+    "file": "PriestInPeril.java"
+  },
+  {
+    "dir": "princealirescue",
+    "file": "PrinceAliRescue.java"
+  },
+  {
+    "dir": "pryingtimes",
+    "file": "PryingTimes.java"
+  },
+  {
+    "dir": "ragandboneman",
+    "file": "RagAndBoneManII.java"
+  },
+  {
+    "dir": "ragandboneman",
+    "file": "RagAndBoneManI.java"
+  },
+  {
+    "dir": "ragandboneman",
+    "file": "RagBoneGroups.java"
+  },
+  {
+    "dir": "ragandboneman",
+    "file": "RagBoneState.java"
+  },
+  {
+    "dir": "ratcatchers",
+    "file": "RatCatchers.java"
+  },
+  {
+    "dir": "ratcatchers",
+    "file": "RatCharming.java"
+  },
+  {
+    "dir": "recipefordisaster",
+    "file": "AskAboutFishCake.java"
+  },
+  {
+    "dir": "recipefordisaster",
+    "file": "GetRohakDrunk.java"
+  },
+  {
+    "dir": "recipefordisaster",
+    "file": "MakeEvilStew.java"
+  },
+  {
+    "dir": "recipefordisaster",
+    "file": "QuizSteps.java"
+  },
+  {
+    "dir": "recipefordisaster",
+    "file": "RFDAwowogei.java"
+  },
+  {
+    "dir": "recipefordisaster",
+    "file": "RFDDwarf.java"
+  },
+  {
+    "dir": "recipefordisaster",
+    "file": "RFDEvilDave.java"
+  },
+  {
+    "dir": "recipefordisaster",
+    "file": "RFDFinal.java"
+  },
+  {
+    "dir": "recipefordisaster",
+    "file": "RFDGoblins.java"
+  },
+  {
+    "dir": "recipefordisaster",
+    "file": "RFDLumbridgeGuide.java"
+  },
+  {
+    "dir": "recipefordisaster",
+    "file": "RFDPiratePete.java"
+  },
+  {
+    "dir": "recipefordisaster",
+    "file": "RFDSirAmikVarze.java"
+  },
+  {
+    "dir": "recipefordisaster",
+    "file": "RFDSkrachUglogwee.java"
+  },
+  {
+    "dir": "recipefordisaster",
+    "file": "RFDStart.java"
+  },
+  {
+    "dir": "recruitmentdrive",
+    "file": "DoorPuzzle.java"
+  },
+  {
+    "dir": "recruitmentdrive",
+    "file": "LadyTableStep.java"
+  },
+  {
+    "dir": "recruitmentdrive",
+    "file": "MissCheeversStep.java"
+  },
+  {
+    "dir": "recruitmentdrive",
+    "file": "MsHynnAnswerDialogQuizStep.java"
+  },
+  {
+    "dir": "recruitmentdrive",
+    "file": "RecruitmentDrive.java"
+  },
+  {
+    "dir": "recruitmentdrive",
+    "file": "SirRenItchoodStep.java"
+  },
+  {
+    "dir": "regicide",
+    "file": "Regicide.java"
+  },
+  {
+    "dir": "romeoandjuliet",
+    "file": "RomeoAndJuliet.java"
+  },
+  {
+    "dir": "rovingelves",
+    "file": "RovingElves.java"
+  },
+  {
+    "dir": "royaltrouble",
+    "file": "RoyalTrouble.java"
+  },
+  {
+    "dir": "rumdeal",
+    "file": "RumDeal.java"
+  },
+  {
+    "dir": "rumdeal",
+    "file": "SlugSteps.java"
+  },
+  {
+    "dir": "runemysteries",
+    "file": "RuneMysteries.java"
+  },
+  {
+    "dir": "scorpioncatcher",
+    "file": "ScorpionCatcher.java"
+  },
+  {
+    "dir": "scrambled",
+    "file": "EggSolver.java"
+  },
+  {
+    "dir": "scrambled",
+    "file": "Scrambled.java"
+  },
+  {
+    "dir": "seaslug",
+    "file": "SeaSlug.java"
+  },
+  {
+    "dir": "secretsofthenorth",
+    "file": "ArrowChestPuzzleStep.java"
+  },
+  {
+    "dir": "secretsofthenorth",
+    "file": "AskAboutRitual.java"
+  },
+  {
+    "dir": "secretsofthenorth",
+    "file": "SecretsOfTheNorth.java"
+  },
+  {
+    "dir": "secretsofthenorth",
+    "file": "SolveChestCode.java"
+  },
+  {
+    "dir": "secretsofthenorth",
+    "file": "SolveDoorCode.java"
+  },
+  {
+    "dir": "secretsofthenorth",
+    "file": "TellAboutMurder.java"
+  },
+  {
+    "dir": "shadesofmortton",
+    "file": "ShadesOfMortton.java"
+  },
+  {
+    "dir": "shadowofthestorm",
+    "file": "IncantationStep.java"
+  },
+  {
+    "dir": "shadowofthestorm",
+    "file": "ShadowOfTheStorm.java"
+  },
+  {
+    "dir": "shadowsofcustodia",
+    "file": "ShadowsOfCustodia.java"
+  },
+  {
+    "dir": "sheepherder",
+    "file": "SheepHerder.java"
+  },
+  {
+    "dir": "sheepshearer",
+    "file": "SheepShearer.java"
+  },
+  {
+    "dir": "shieldofarrav",
+    "file": "ShieldOfArravBlackArmGang.java"
+  },
+  {
+    "dir": "shieldofarrav",
+    "file": "ShieldOfArravPhoenixGang.java"
+  },
+  {
+    "dir": "shilovillage",
+    "file": "ShiloVillage.java"
+  },
+  {
+    "dir": "sinsofthefather",
+    "file": "DoorPuzzleStep.java"
+  },
+  {
+    "dir": "sinsofthefather",
+    "file": "SinsOfTheFather.java"
+  },
+  {
+    "dir": "sinsofthefather",
+    "file": "ValveStep.java"
+  },
+  {
+    "dir": "sleepinggiants",
+    "file": "SleepingGiants.java"
+  },
+  {
+    "dir": "songoftheelves",
+    "file": "AmloddLightPuzzle.java"
+  },
+  {
+    "dir": "songoftheelves",
+    "file": "BaxtorianPillar.java"
+  },
+  {
+    "dir": "songoftheelves",
+    "file": "BaxtorianPuzzle.java"
+  },
+  {
+    "dir": "songoftheelves",
+    "file": "CadarnLightPuzzle.java"
+  },
+  {
+    "dir": "songoftheelves",
+    "file": "CrwysLightPuzzle.java"
+  },
+  {
+    "dir": "songoftheelves",
+    "file": "HefinLightPuzzle.java"
+  },
+  {
+    "dir": "songoftheelves",
+    "file": "IorwerthLightPuzzle.java"
+  },
+  {
+    "dir": "songoftheelves",
+    "file": "MeilyrLightPuzzle.java"
+  },
+  {
+    "dir": "songoftheelves",
+    "file": "SongOfTheElves.java"
+  },
+  {
+    "dir": "songoftheelves",
+    "file": "TrahaearnLightPuzzle.java"
+  },
+  {
+    "dir": "spiritsoftheelid",
+    "file": "SpiritsOfTheElid.java"
+  },
+  {
+    "dir": "swansong",
+    "file": "FishMonkfish.java"
+  },
+  {
+    "dir": "swansong",
+    "file": "FixWall.java"
+  },
+  {
+    "dir": "swansong",
+    "file": "SwanSong.java"
+  },
+  {
+    "dir": "taibwowannaitrio",
+    "file": "TaiBwoWannaiTrio.java"
+  },
+  {
+    "dir": "taleoftherighteous",
+    "file": "TaleOfTheRighteous.java"
+  },
+  {
+    "dir": "tearsofguthix",
+    "file": "TearsOfGuthix.java"
+  },
+  {
+    "dir": "templeofikov",
+    "file": "TempleOfIkov.java"
+  },
+  {
+    "dir": "templeoftheeye",
+    "file": "RuneEnergyStep.java"
+  },
+  {
+    "dir": "templeoftheeye",
+    "file": "RunicEnergy.java"
+  },
+  {
+    "dir": "templeoftheeye",
+    "file": "TempleOfTheEye.java"
+  },
+  {
+    "dir": "theascentofarceuus",
+    "file": "TheAscentOfArceuus.java"
+  },
+  {
+    "dir": "thecorsaircurse",
+    "file": "TheCorsairCurse.java"
+  },
+  {
+    "dir": "thecurseofarrav",
+    "file": "MetalDoorSolver.java"
+  },
+  {
+    "dir": "thecurseofarrav",
+    "file": "rubblesolvers"
+  },
+  {
+    "dir": "thecurseofarrav",
+    "file": "TheCurseOfArrav.java"
+  },
+  {
+    "dir": "thecurseofarrav",
+    "file": "TilePuzzleSolver.java"
+  },
+  {
+    "dir": "thedepthsofdespair",
+    "file": "TheDepthsOfDespair.java"
+  },
+  {
+    "dir": "thedigsite",
+    "file": "TheDigSite.java"
+  },
+  {
+    "dir": "theeyesofglouphrie",
+    "file": "PuzzleStep.java"
+  },
+  {
+    "dir": "theeyesofglouphrie",
+    "file": "TheEyesOfGlouphrie.java"
+  },
+  {
+    "dir": "thefeud",
+    "file": "TheFeud.java"
+  },
+  {
+    "dir": "thefinaldawn",
+    "file": "TheFinalDawn.java"
+  },
+  {
+    "dir": "theforsakentower",
+    "file": "AltarPuzzle.java"
+  },
+  {
+    "dir": "theforsakentower",
+    "file": "JugPuzzle.java"
+  },
+  {
+    "dir": "theforsakentower",
+    "file": "PotionPuzzle.java"
+  },
+  {
+    "dir": "theforsakentower",
+    "file": "PowerPuzzle.java"
+  },
+  {
+    "dir": "theforsakentower",
+    "file": "TheForsakenTower.java"
+  },
+  {
+    "dir": "thefremennikexiles",
+    "file": "TheFremennikExiles.java"
+  },
+  {
+    "dir": "thefremennikisles",
+    "file": "KillTrolls.java"
+  },
+  {
+    "dir": "thefremennikisles",
+    "file": "TheFremennikIsles.java"
+  },
+  {
+    "dir": "thefremenniktrials",
+    "file": "CombinationPuzzle.java"
+  },
+  {
+    "dir": "thefremenniktrials",
+    "file": "TheFremennikTrials.java"
+  },
+  {
+    "dir": "thegardenofdeath",
+    "file": "TheGardenOfDeath.java"
+  },
+  {
+    "dir": "thegiantdwarf",
+    "file": "TheGiantDwarf.java"
+  },
+  {
+    "dir": "thegolem",
+    "file": "TheGolem.java"
+  },
+  {
+    "dir": "thegrandtree",
+    "file": "TheGrandTree.java"
+  },
+  {
+    "dir": "thegreatbrainrobbery",
+    "file": "TheGreatBrainRobbery.java"
+  },
+  {
+    "dir": "thehandinthesand",
+    "file": "TheHandInTheSand.java"
+  },
+  {
+    "dir": "theheartofdarkness",
+    "file": "ChestCodeStep.java"
+  },
+  {
+    "dir": "theheartofdarkness",
+    "file": "LockedChestPuzzle.java"
+  },
+  {
+    "dir": "theheartofdarkness",
+    "file": "StatueDetails.java"
+  },
+  {
+    "dir": "theheartofdarkness",
+    "file": "TheHeartOfDarkness.java"
+  },
+  {
+    "dir": "theidesofmilk",
+    "file": "TheIdesOfMilk.java"
+  },
+  {
+    "dir": "theknightssword",
+    "file": "TheKnightsSword.java"
+  },
+  {
+    "dir": "thelosttribe",
+    "file": "TheLostTribe.java"
+  },
+  {
+    "dir": "thepathofglouphrie",
+    "file": "DiscInsertionStep.java"
+  },
+  {
+    "dir": "thepathofglouphrie",
+    "file": "MonolithPuzzle.java"
+  },
+  {
+    "dir": "thepathofglouphrie",
+    "file": "sections"
+  },
+  {
+    "dir": "thepathofglouphrie",
+    "file": "Solution.java"
+  },
+  {
+    "dir": "thepathofglouphrie",
+    "file": "ThePathOfGlouphrie.java"
+  },
+  {
+    "dir": "thepathofglouphrie",
+    "file": "YewnocksPuzzle.java"
+  },
+  {
+    "dir": "thequeenofthieves",
+    "file": "TheQueenOfThieves.java"
+  },
+  {
+    "dir": "theredreef",
+    "file": "TheRedReef.java"
+  },
+  {
+    "dir": "therestlessghost",
+    "file": "TheRestlessGhost.java"
+  },
+  {
+    "dir": "theribbitingtaleofalilypadlabourdispute",
+    "file": "TheRibbitingTaleOfALilyPadLabourDispute.java"
+  },
+  {
+    "dir": "theslugmenace",
+    "file": "PuzzleStep.java"
+  },
+  {
+    "dir": "theslugmenace",
+    "file": "TheSlugMenace.java"
+  },
+  {
+    "dir": "thetouristtrap",
+    "file": "TheTouristTrap.java"
+  },
+  {
+    "dir": "throneofmiscellania",
+    "file": "ThroneOfMiscellania.java"
+  },
+  {
+    "dir": "toweroflife",
+    "file": "PuzzleSolver.java"
+  },
+  {
+    "dir": "toweroflife",
+    "file": "TowerOfLife.java"
+  },
+  {
+    "dir": "treegnomevillage",
+    "file": "TreeGnomeVillage.java"
+  },
+  {
+    "dir": "tribaltotem",
+    "file": "PuzzleStep.java"
+  },
+  {
+    "dir": "tribaltotem",
+    "file": "TribalTotem.java"
+  },
+  {
+    "dir": "trollromance",
+    "file": "TrollRomance.java"
+  },
+  {
+    "dir": "trollstronghold",
+    "file": "TrollStronghold.java"
+  },
+  {
+    "dir": "troubledtortugans",
+    "file": "RepairTown.java"
+  },
+  {
+    "dir": "troubledtortugans",
+    "file": "TroubledTortugans.java"
+  },
+  {
+    "dir": "twilightspromise",
+    "file": "TwilightsPromise.java"
+  },
+  {
+    "dir": "undergroundpass",
+    "file": "UndergroundPass.java"
+  },
+  {
+    "dir": "vampyreslayer",
+    "file": "VampyreSlayer.java"
+  },
+  {
+    "dir": "wanted",
+    "file": "Wanted.java"
+  },
+  {
+    "dir": "watchtower",
+    "file": "SkavidChoice.java"
+  },
+  {
+    "dir": "watchtower",
+    "file": "Watchtower.java"
+  },
+  {
+    "dir": "waterfallquest",
+    "file": "WaterfallQuest.java"
+  },
+  {
+    "dir": "whatliesbelow",
+    "file": "WhatLiesBelow.java"
+  },
+  {
+    "dir": "whileguthixsleeps",
+    "file": "DolmenType.java"
+  },
+  {
+    "dir": "whileguthixsleeps",
+    "file": "HerblorePuzzle.java"
+  },
+  {
+    "dir": "whileguthixsleeps",
+    "file": "StatueLocation.java"
+  },
+  {
+    "dir": "whileguthixsleeps",
+    "file": "WeightStep.java"
+  },
+  {
+    "dir": "whileguthixsleeps",
+    "file": "WhileGuthixSleeps.java"
+  },
+  {
+    "dir": "witchshouse",
+    "file": "WitchsHouse.java"
+  },
+  {
+    "dir": "witchspotion",
+    "file": "WitchsPotion.java"
+  },
+  {
+    "dir": "xmarksthespot",
+    "file": "XMarksTheSpot.java"
+  },
+  {
+    "dir": "zogreflesheaters",
+    "file": "ZogreFleshEaters.java"
+  }
+]

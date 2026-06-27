@@ -1,0 +1,2207 @@
+{
+  "source": "osrs-wiki+quest-helper",
+  "resolvedAt": "2026-06-27T19:23:15.253Z",
+  "steps": {
+    "new-1-1": {
+      "label": "Duke Horacio",
+      "npcIds": [
+        815,
+        5327,
+        8051,
+        11024
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3208,
+        "y": 3226,
+        "plane": 1
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-2": {
+      "label": "Hans",
+      "npcIds": [
+        3105
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3212,
+        "y": 3219,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-3": {
+      "label": "Father Urhney",
+      "npcIds": [
+        923
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3144,
+        "y": 3178,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-4": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-1-5": {
+      "label": "Ceril Carnillean",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2566,
+        "y": 3270,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-6": {
+      "label": "Clock Tower",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2570,
+        "y": 3245,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-7": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-1-8": {
+      "label": "Sheep Herder",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2615,
+        "y": 3298,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-9": {
+      "label": "Tribal Totem",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2794,
+        "y": 3182,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-10": {
+      "label": "Tribal Totem",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2794,
+        "y": 3182,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-11": {
+      "label": "Morgan",
+      "npcIds": [
+        3479
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3099,
+        "y": 3269,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-12": {
+      "label": "Gertrude's cat",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3148,
+        "y": 3413,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-13": {
+      "label": "Family Crest",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3280,
+        "y": 3402,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-14": {
+      "label": "gertrudescat",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3148,
+        "y": 3413,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-15": {
+      "label": "witchspotion",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2968,
+        "y": 3205,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-16": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-1-17": {
+      "label": "Tower of Life",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2637,
+        "y": 3218,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-18": {
+      "label": "monkey madness i",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2465,
+        "y": 3496,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-19": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-1-20": {
+      "label": "clientofkourend",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 1824,
+        "y": 3690,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-21": {
+      "label": "Tomas Lawry",
+      "npcIds": [
+        7904,
+        10928,
+        10929
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 1796,
+        "y": 3781,
+        "plane": 0
+      },
+      "note": "Resolved via quest"
+    },
+    "new-1-22": {
+      "label": "Goblin Diplomacy",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2954,
+        "y": 3497,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-23": {
+      "label": "Thurgo",
+      "npcIds": [
+        4733
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3001,
+        "y": 3144,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-24": {
+      "label": "Ethically Acquired Antiquities",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 1721,
+        "y": 3165,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-25": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-1-26": {
+      "label": "Fishing Contest",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2821,
+        "y": 3486,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-27": {
+      "label": "belowicemountain",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3003,
+        "y": 3435,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-28": {
+      "label": "Dwarf Cannon",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2567,
+        "y": 3460,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-29": {
+      "label": "Fight Arena",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2565,
+        "y": 3199,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-30": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-1-31": {
+      "label": "deathontheisle",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 1426,
+        "y": 2919,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-32": {
+      "label": "Fishing Contest",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2821,
+        "y": 3486,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-33": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-1-34": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-1-35": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-1-36": {
+      "label": "darknessofhallowvale",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3491,
+        "y": 3230,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-37": {
+      "label": "Golem",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3485,
+        "y": 3088,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-38": {
+      "label": "Merlin's Crystal",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2763,
+        "y": 3513,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-39": {
+      "label": "Scavvo",
+      "npcIds": [
+        2871
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3192,
+        "y": 3354,
+        "plane": 1
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-40": {
+      "label": "Elemental Workshop I",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2716,
+        "y": 3482,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-41": {
+      "label": "thedigsite",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3362,
+        "y": 3337,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-42": {
+      "label": "forgettable tale",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3140,
+        "y": 3504,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-43": {
+      "label": "mountaindaughter",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2766,
+        "y": 3667,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-44": {
+      "label": "rfd/dwarf",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3209,
+        "y": 3215,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-45": {
+      "label": "Golem",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3485,
+        "y": 3088,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-46": {
+      "label": "Lady of the Lake",
+      "npcIds": [
+        3530
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2925,
+        "y": 3405,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-47": {
+      "label": "Rune Mysteries",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3205,
+        "y": 3208,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-48": {
+      "label": "forgettable tale",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3140,
+        "y": 3504,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-49": {
+      "label": "Mage of Zamorak",
+      "npcIds": [
+        2580,
+        2581,
+        2582,
+        4936,
+        4937,
+        4938
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3107,
+        "y": 3555,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-50": {
+      "label": "familycrest",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3280,
+        "y": 3402,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-51": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-1-52": {
+      "label": "Below Ice Mountain",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3003,
+        "y": 3435,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-53": {
+      "label": "Elemental Workshop II",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3367,
+        "y": 3335,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-54": {
+      "label": "Fenkenstrain",
+      "npcIds": [
+        1269
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3549,
+        "y": 3555,
+        "plane": 2
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-55": {
+      "label": "Merlin's Crystal",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2764,
+        "y": 3515,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-56": {
+      "label": "Depths of Despair",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 1782,
+        "y": 3572,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-57": {
+      "label": "Bone Voyage",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3257,
+        "y": 3448,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-58": {
+      "label": "Fremennik Trials",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2658,
+        "y": 3669,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-59": {
+      "label": "Ides of Milk",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3171,
+        "y": 3277,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-60": {
+      "label": "Fairytale I",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3078,
+        "y": 3256,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-61": {
+      "label": "Praistan Ebola",
+      "npcIds": [
+        2686
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2800,
+        "y": 3205,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-62": {
+      "label": "King Arthur",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2764,
+        "y": 3515,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-63": {
+      "label": "Dreven",
+      "npcIds": [
+        2674
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3183,
+        "y": 3356,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-64": {
+      "label": "songoftheelves",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2566,
+        "y": 3337,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-65": {
+      "label": "deathplateau",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2896,
+        "y": 3529,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-66": {
+      "label": "Fenkenstrain",
+      "npcIds": [
+        1269
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3549,
+        "y": 3555,
+        "plane": 2
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-67": {
+      "label": "Lost Tribe",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3209,
+        "y": 3216,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-68": {
+      "label": "fairytale i",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3078,
+        "y": 3256,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-69": {
+      "label": "shadowofthestorm",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3270,
+        "y": 3159,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-70": {
+      "label": "Duke Horacio",
+      "npcIds": [
+        815,
+        5327,
+        8051,
+        11024
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3208,
+        "y": 3226,
+        "plane": 1
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-71": {
+      "label": "Mountain Daughter",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2766,
+        "y": 3667,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-72": {
+      "label": "Veos",
+      "npcIds": [
+        2850,
+        8484,
+        8630,
+        10723,
+        10724,
+        10726,
+        10727,
+        10949
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3054,
+        "y": 3245,
+        "plane": 0
+      },
+      "note": "Resolved via regex"
+    },
+    "new-1-73": {
+      "label": "Ganala",
+      "npcIds": [
+        7902
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 1649,
+        "y": 3824,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-74": {
+      "label": "King Arthur",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2764,
+        "y": 3515,
+        "plane": 0
+      },
+      "note": "Resolved via quest"
+    },
+    "new-1-75": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-1-76": {
+      "label": "Monkey Madness I",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2465,
+        "y": 3496,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-77": {
+      "label": "Forgettable Tale...",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2828,
+        "y": 10216,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-78": {
+      "label": "Wise Old Man",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3089,
+        "y": 3254,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-79": {
+      "label": "Dwarf Cannon",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2567,
+        "y": 3460,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-80": {
+      "label": "entertheabyss",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3102,
+        "y": 3557,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-81": {
+      "label": "Eadgar's Ruse",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2899,
+        "y": 3429,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-82": {
+      "label": "Lyra",
+      "npcIds": [
+        2666
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3600,
+        "y": 3524,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-83": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-1-84": {
+      "label": "Garden of Tranquillity",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3229,
+        "y": 3477,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-85": {
+      "label": "Gertrude",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3151,
+        "y": 3409,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-86": {
+      "label": "eadgarsruse",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2899,
+        "y": 3429,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-87": {
+      "label": "Avan",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3297,
+        "y": 3280,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-88": {
+      "label": "shadesofmortton",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3481,
+        "y": 3279,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-89": {
+      "label": "ghostsahoy",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3660,
+        "y": 3508,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-90": {
+      "label": "Enlightened Journey",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3047,
+        "y": 3236,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-91": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-1-92": {
+      "label": "Bear Your Soul",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 1632,
+        "y": 3808,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-93": {
+      "label": "gettingahead",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 1248,
+        "y": 3686,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-94": {
+      "label": "dragonslayer",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3190,
+        "y": 3360,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-95": {
+      "label": "Temple of Ikov",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2573,
+        "y": 3321,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-96": {
+      "label": "Prince Ali Rescue",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3298,
+        "y": 3163,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-1-97": {
+      "label": "Twilight's Promise",
+      "npcIds": [
+        12654,
+        12892,
+        12893
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 1687,
+        "y": 3141,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-1-98": {
+      "label": "thehandinthesand",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2551,
+        "y": 3099,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-1": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-2": {
+      "label": "familycrest",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3280,
+        "y": 3402,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-3": {
+      "unresolved": true,
+      "note": "Wiki lookup failed for \"Shields\""
+    },
+    "new-2-4": {
+      "label": "thedigsite",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3362,
+        "y": 3337,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-5": {
+      "label": "dragonslayer",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3190,
+        "y": 3360,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-6": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-7": {
+      "label": "Underground Pass",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2572,
+        "y": 3296,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-8": {
+      "label": "Rolad",
+      "npcIds": [
+        4894
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3021,
+        "y": 3452,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-2-9": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-10": {
+      "label": "Troll Romance",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2839,
+        "y": 3690,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-11": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-12": {
+      "label": "recruitmentdrive",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2955,
+        "y": 3339,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-13": {
+      "label": "onesmallfavour",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2836,
+        "y": 2983,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-14": {
+      "label": "One Small Favour",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2836,
+        "y": 2983,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-15": {
+      "label": "Aggie",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3086,
+        "y": 3259,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-2-16": {
+      "label": "rfd/evil dave",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3209,
+        "y": 3215,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-17": {
+      "label": "Between a Rock",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2732,
+        "y": 3713,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-18": {
+      "label": "Temple of the Eye",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3285,
+        "y": 3232,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-19": {
+      "label": "spiritsoftheelid",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3443,
+        "y": 2915,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-20": {
+      "label": "Scorpion Catcher",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2701,
+        "y": 3408,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-21": {
+      "label": "A Tail of Two Cats",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2919,
+        "y": 3559,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-22": {
+      "label": "A Tail of Two Cats",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2919,
+        "y": 3559,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-23": {
+      "label": "One Small Favour",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2836,
+        "y": 2983,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-24": {
+      "label": "Ernest the Chicken",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3109,
+        "y": 3329,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-25": {
+      "label": "animalmagnetism",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3093,
+        "y": 3357,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-26": {
+      "label": "In Aid of the Myreque",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3506,
+        "y": 9837,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-27": {
+      "label": "Animal Magnetism",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3093,
+        "y": 3357,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-28": {
+      "label": "animalmagnetism",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3093,
+        "y": 3357,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-29": {
+      "label": "familycrest",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3280,
+        "y": 3402,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-30": {
+      "label": "Gianne",
+      "npcIds": [
+        2656
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2449,
+        "y": 3501,
+        "plane": 1
+      },
+      "note": "Resolved via seed"
+    },
+    "new-2-31": {
+      "label": "Haunted Mine",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3443,
+        "y": 3258,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-32": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-33": {
+      "label": "Big Chompy Bird Hunting",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2631,
+        "y": 2982,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-34": {
+      "label": "pandemonium",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3027,
+        "y": 3218,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-35": {
+      "label": "Prying Times",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3050,
+        "y": 2966,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-36": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-37": {
+      "label": "currentaffairs",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2803,
+        "y": 3430,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-38": {
+      "label": "pandemonium",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3027,
+        "y": 3218,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-39": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-40": {
+      "label": "pandemonium",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3027,
+        "y": 3218,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-41": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-42": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-43": {
+      "label": "Horror from the Deep",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2507,
+        "y": 3634,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-44": {
+      "label": "Slug Menace",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2996,
+        "y": 3373,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-45": {
+      "label": "Throne of Miscellania",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2629,
+        "y": 3693,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-46": {
+      "label": "hauntedmine",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3443,
+        "y": 3258,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-47": {
+      "label": "thedigsite",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3362,
+        "y": 3337,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-48": {
+      "label": "thefremennikisles",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2644,
+        "y": 3709,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-49": {
+      "label": "Lunar Diplomacy",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2620,
+        "y": 3693,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-50": {
+      "label": "rfd/evil dave",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3209,
+        "y": 3215,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-51": {
+      "label": "Slug Menace",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2996,
+        "y": 3373,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-52": {
+      "label": "What Lies Below",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3266,
+        "y": 3333,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-53": {
+      "label": "Ratcatchers",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3151,
+        "y": 3413,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-54": {
+      "label": "makingfriendswithmyarm",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2839,
+        "y": 3690,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-55": {
+      "label": "Timfraku",
+      "npcIds": [
+        4698
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2783,
+        "y": 3088,
+        "plane": 1
+      },
+      "note": "Resolved via quest"
+    },
+    "new-2-56": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-57": {
+      "label": "One Small Favour",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2836,
+        "y": 2983,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-58": {
+      "label": "A Tail of Two Cats",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2919,
+        "y": 3559,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-59": {
+      "label": "onesmallfavour",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2836,
+        "y": 2983,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-60": {
+      "label": "Ratcatchers",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3151,
+        "y": 3413,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-61": {
+      "label": "between a rock",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2732,
+        "y": 3713,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-62": {
+      "label": "A Tail of Two Cats",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2919,
+        "y": 3559,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-63": {
+      "label": "One Small Favour",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2836,
+        "y": 2983,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-64": {
+      "label": "atailoftwocats",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2919,
+        "y": 3559,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-65": {
+      "label": "Cold War",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2597,
+        "y": 3266,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-66": {
+      "label": "ratcatchers",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3151,
+        "y": 3413,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-67": {
+      "label": "Cold War",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2597,
+        "y": 3266,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-68": {
+      "label": "Ratcatchers",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3151,
+        "y": 3413,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-69": {
+      "label": "between a rock",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2732,
+        "y": 3713,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-70": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-71": {
+      "label": "Swan Song",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2345,
+        "y": 3651,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-72": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-73": {
+      "label": "recipefordisaster",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3209,
+        "y": 3215,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-74": {
+      "label": "recipefordisaster",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3209,
+        "y": 3215,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-75": {
+      "label": "akingdomdivided",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 1664,
+        "y": 3670,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-76": {
+      "label": "kingsransom",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2741,
+        "y": 3557,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-77": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-78": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-79": {
+      "label": "In Aid of the Myreque",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3506,
+        "y": 9837,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-80": {
+      "label": "pandemonium",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3027,
+        "y": 3218,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-81": {
+      "unresolved": true,
+      "note": "Wiki lookup failed for \"Attas\""
+    },
+    "new-2-82": {
+      "label": "Mysterious Stranger",
+      "npcIds": [
+        8208,
+        10875,
+        10876,
+        10877,
+        11162
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3673,
+        "y": 3222,
+        "plane": 0
+      },
+      "note": "Resolved via quest"
+    },
+    "new-2-83": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-84": {
+      "label": "defenderofvarrock",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3283,
+        "y": 3501,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-85": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-86": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-87": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-88": {
+      "label": "dreammentor",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2142,
+        "y": 3944,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-89": {
+      "label": "Rantz",
+      "npcIds": [
+        1470,
+        4855,
+        4856,
+        4857
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2630,
+        "y": 2981,
+        "plane": 0
+      },
+      "note": "Resolved via regex"
+    },
+    "new-2-90": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-91": {
+      "label": "Bob",
+      "npcIds": [
+        10619
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3228,
+        "y": 3206,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-2-92": {
+      "label": "fairytale i",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3078,
+        "y": 3256,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-93": {
+      "label": "General Khazard",
+      "npcIds": [
+        1213,
+        12025,
+        12026,
+        12027,
+        12054,
+        12055,
+        12056,
+        12057,
+        12058,
+        12059
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2723,
+        "y": 3622,
+        "plane": 0
+      },
+      "note": "Resolved via regex"
+    },
+    "new-2-94": {
+      "label": "Grubfoot",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2959,
+        "y": 3513,
+        "plane": 0
+      },
+      "note": "Resolved via quest"
+    },
+    "new-2-95": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-96": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-2-97": {
+      "label": "Emblem Trader",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3424,
+        "y": 4064,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-2-98": {
+      "label": "Grim Tales",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2892,
+        "y": 3454,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-2-99": {
+      "label": "Bill Teach",
+      "npcIds": [
+        4011,
+        4012,
+        4014,
+        4015,
+        4016
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3677,
+        "y": 3495,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-2-100": {
+      "label": "mourningsendpartii",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2354,
+        "y": 3170,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-3-1": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-2": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-3": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-4": {
+      "label": "thefinaldawn",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 1681,
+        "y": 3168,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-3-5": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-6": {
+      "label": "toweroflife",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2637,
+        "y": 3218,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-3-7": {
+      "label": "shadesofmortton",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3481,
+        "y": 3279,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-3-8": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-9": {
+      "label": "Brundt the Chieftain",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2659,
+        "y": 3670,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-3-10": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-11": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-12": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-13": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-14": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-15": {
+      "label": "thegolem",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3485,
+        "y": 3088,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-3-16": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-17": {
+      "label": "thegolem",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3485,
+        "y": 3088,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-3-18": {
+      "label": "monkey madness i",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2465,
+        "y": 3496,
+        "plane": 0
+      },
+      "note": "Resolved via Quest Helper"
+    },
+    "new-3-19": {
+      "label": "Monk (Devious Minds)",
+      "npcIds": [
+        4563
+      ],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 3406,
+        "y": 3492,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-3-20": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-21": {
+      "label": "Swensen the Navigator",
+      "npcIds": [],
+      "objectIds": [],
+      "worldPoint": {
+        "x": 2647,
+        "y": 3660,
+        "plane": 0
+      },
+      "note": "Resolved via seed"
+    },
+    "new-3-22": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-23": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-24": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-25": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-26": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-27": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-28": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    },
+    "new-3-29": {
+      "unresolved": true,
+      "note": "No entity found in step text"
+    }
+  }
+}

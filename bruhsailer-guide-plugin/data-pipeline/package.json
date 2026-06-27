@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "test": "node --test test/"
+    "clone": "node clone-quest-helper.js",
+    "scrape": "node scrape-guide.js",
+    "spatial": "node resolve-spatial.js",
+    "stats": "node scrape-stats.js",
+    "test": "node --test test/*.test.js"
   }
 }

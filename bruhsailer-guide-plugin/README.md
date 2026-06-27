@@ -33,7 +33,10 @@ The plugin JAR is produced at `build/libs/bruhsailer-guide-plugin-*-all.jar`.
 The plugin bundles pre-generated JSON data. To refresh it from upstream sources:
 
 ```bash
-# 1. Reshape the raw guide into guide.json
+# 0. Clone the RuneLite Quest Helper source locally (needed for quest action parsing)
+node data-pipeline/clone-quest-helper.js
+
+# 1. Reshape the raw guide into guide.json, splitting quest steps from Quest Helper source
 node data-pipeline/scrape-guide.js
 
 # 2. Resolve spatial hints (NPC/object locations, world points)

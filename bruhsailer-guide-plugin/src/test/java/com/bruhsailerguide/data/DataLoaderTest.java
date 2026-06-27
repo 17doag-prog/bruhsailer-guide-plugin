@@ -14,6 +14,21 @@ public class DataLoaderTest
 	}
 
 	@Test
+	public void testStepNew11HasActionsWithIds()
+	{
+		GuideData guide = DataLoader.loadAndJoin();
+		GuideStep step = findStep(guide, "new-1-1");
+		assertNotNull("Step new-1-1 should exist", step);
+		assertNotNull("Actions should not be null", step.getActions());
+		assertFalse("Actions should not be empty", step.getActions().isEmpty());
+
+		GuideAction action = step.getActions().get(0);
+		assertNotNull("Action id should not be null", action.getId());
+		assertNotNull("Action text should not be null", action.getText());
+		assertNotNull("Action source should not be null", action.getSource());
+	}
+
+	@Test
 	public void testStepNew11HasHintsAndPlane1()
 	{
 		GuideData guide = DataLoader.loadAndJoin();

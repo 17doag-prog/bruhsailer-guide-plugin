@@ -12,6 +12,7 @@ public class GuideStep
 	private String gpStack;
 	private String itemsNeeded;
 	private String totalTime;
+	private List<GuideAction> actions;
 	private List<SpatialHint> hints;
 	private StepStats stats;
 }

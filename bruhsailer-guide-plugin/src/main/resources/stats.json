@@ -1,0 +1,1201 @@
+{
+  "sourceUrl": "https://docs.google.com/spreadsheets/d/1XZ-3Kja7_QS4Rxj4mJXeATXHBP03lrdUSt46gO3pWHk/export?format=csv&gid=1506136399",
+  "exportedAt": "2026-06-27T17:07:02.074Z",
+  "skills": [
+    "ATK",
+    "STR",
+    "DEF",
+    "HP",
+    "RNG",
+    "PRY",
+    "MAG",
+    "RC",
+    "CON",
+    "AGI",
+    "HRB",
+    "THI",
+    "CRF",
+    "FLE",
+    "SLY",
+    "HUN",
+    "MNG",
+    "SMI",
+    "FSH",
+    "COK",
+    "FM",
+    "WC",
+    "FRM",
+    "SAI"
+  ],
+  "steps": {
+    "new-1-1": {
+      "gpChange": "0",
+      "gpTotal": "25",
+      "levels": {}
+    },
+    "new-1-2": {
+      "gpChange": "2",
+      "gpTotal": "27",
+      "levels": {}
+    },
+    "new-1-3": {
+      "gpChange": "-26",
+      "gpTotal": "1",
+      "levels": {}
+    },
+    "new-1-4": {
+      "gpChange": "0",
+      "gpTotal": "1",
+      "levels": {}
+    },
+    "new-1-5": {
+      "gpChange": "0",
+      "gpTotal": "1",
+      "levels": {}
+    },
+    "new-1-6": {
+      "gpChange": "2500",
+      "gpTotal": "2501",
+      "levels": {}
+    },
+    "new-1-7": {
+      "gpChange": "-781",
+      "gpTotal": "1720",
+      "levels": {}
+    },
+    "new-1-8": {
+      "gpChange": "3000",
+      "gpTotal": "4720",
+      "levels": {}
+    },
+    "new-1-9": {
+      "gpChange": "4628",
+      "gpTotal": "9348",
+      "levels": {}
+    },
+    "new-1-10": {
+      "gpChange": "-840",
+      "gpTotal": "8508",
+      "levels": {}
+    },
+    "new-1-11": {
+      "gpChange": "-3220",
+      "gpTotal": "5288",
+      "levels": {}
+    },
+    "new-1-12": {
+      "gpChange": "-101",
+      "gpTotal": "5187",
+      "levels": {}
+    },
+    "new-1-13": {
+      "gpChange": "-1204",
+      "gpTotal": "3983",
+      "levels": {}
+    },
+    "new-1-14": {
+      "gpChange": "-3650",
+      "gpTotal": "333",
+      "levels": {}
+    },
+    "new-1-15": {
+      "gpChange": "-50",
+      "gpTotal": "283",
+      "levels": {}
+    },
+    "new-1-16": {
+      "gpChange": "0",
+      "gpTotal": "283",
+      "levels": {}
+    },
+    "new-1-17": {
+      "gpChange": "-3",
+      "gpTotal": "280",
+      "levels": {}
+    },
+    "new-1-18": {
+      "gpChange": "127720",
+      "gpTotal": "128000",
+      "levels": {}
+    },
+    "new-1-19": {
+      "gpChange": "-1535",
+      "gpTotal": "126465",
+      "levels": {}
+    },
+    "new-1-20": {
+      "gpChange": "-91461",
+      "gpTotal": "35004",
+      "levels": {}
+    },
+    "new-1-21": {
+      "gpChange": "-2900",
+      "gpTotal": "32104",
+      "levels": {
+        "THI": 35397
+      }
+    },
+    "new-1-22": {
+      "gpChange": "-5256",
+      "gpTotal": "26848",
+      "levels": {}
+    },
+    "new-1-23": {
+      "gpChange": "-7500",
+      "gpTotal": "19348",
+      "levels": {}
+    },
+    "new-1-24": {
+      "gpChange": "14031",
+      "gpTotal": "33379",
+      "levels": {}
+    },
+    "new-1-25": {
+      "gpChange": "0",
+      "gpTotal": "33379",
+      "levels": {}
+    },
+    "new-1-26": {
+      "gpChange": "-16030",
+      "gpTotal": "17349",
+      "levels": {
+        "FSH": 161634
+      }
+    },
+    "new-1-27": {
+      "gpChange": "-10000",
+      "gpTotal": "7349",
+      "levels": {}
+    },
+    "new-1-28": {
+      "gpChange": "-4",
+      "gpTotal": "7345",
+      "levels": {}
+    },
+    "new-1-29": {
+      "gpChange": "995",
+      "gpTotal": "8340",
+      "levels": {}
+    },
+    "new-1-30": {
+      "gpChange": "-562",
+      "gpTotal": "7778",
+      "levels": {}
+    },
+    "new-1-31": {
+      "gpChange": "-2300",
+      "gpTotal": "5478",
+      "levels": {
+        "AGI": 7500,
+        "THI": 10000,
+        "CRF": 5000
+      }
+    },
+    "new-1-32": {
+      "gpChange": "-2546",
+      "gpTotal": "2932",
+      "levels": {}
+    },
+    "new-1-33": {
+      "gpChange": "1247160",
+      "gpTotal": "1250092",
+      "levels": {}
+    },
+    "new-1-34": {
+      "gpChange": "-470929",
+      "gpTotal": "779163",
+      "levels": {}
+    },
+    "new-1-35": {
+      "gpChange": "-10",
+      "gpTotal": "779153",
+      "levels": {}
+    },
+    "new-1-36": {
+      "gpChange": "-4840",
+      "gpTotal": "774313",
+      "levels": {}
+    },
+    "new-1-37": {
+      "gpChange": "0",
+      "gpTotal": "774313",
+      "levels": {}
+    },
+    "new-1-38": {
+      "gpChange": "-126",
+      "gpTotal": "774187",
+      "levels": {}
+    },
+    "new-1-39": {
+      "gpChange": "-35021",
+      "gpTotal": "739166",
+      "levels": {}
+    },
+    "new-1-40": {
+      "gpChange": "0",
+      "gpTotal": "739166",
+      "levels": {}
+    },
+    "new-1-41": {
+      "gpChange": "-10000",
+      "gpTotal": "729166",
+      "levels": {}
+    },
+    "new-1-42": {
+      "gpChange": "-815",
+      "gpTotal": "728351",
+      "levels": {}
+    },
+    "new-1-43": {
+      "gpChange": "-51012",
+      "gpTotal": "677339",
+      "levels": {}
+    },
+    "new-1-44": {
+      "gpChange": "-5354",
+      "gpTotal": "671985",
+      "levels": {}
+    },
+    "new-1-45": {
+      "gpChange": "0",
+      "gpTotal": "671985",
+      "levels": {}
+    },
+    "new-1-46": {
+      "gpChange": "0",
+      "gpTotal": "671985",
+      "levels": {}
+    },
+    "new-1-47": {
+      "gpChange": "-20",
+      "gpTotal": "671965",
+      "levels": {}
+    },
+    "new-1-48": {
+      "gpChange": "-25103",
+      "gpTotal": "646862",
+      "levels": {}
+    },
+    "new-1-49": {
+      "gpChange": "-29778",
+      "gpTotal": "617084",
+      "levels": {}
+    },
+    "new-1-50": {
+      "gpChange": "-200",
+      "gpTotal": "616884",
+      "levels": {}
+    },
+    "new-1-51": {
+      "gpChange": "-80000",
+      "gpTotal": "536884",
+      "levels": {}
+    },
+    "new-1-52": {
+      "gpChange": "0",
+      "gpTotal": "536884",
+      "levels": {}
+    },
+    "new-1-53": {
+      "gpChange": "0",
+      "gpTotal": "536884",
+      "levels": {}
+    },
+    "new-1-54": {
+      "gpChange": "-5241",
+      "gpTotal": "531643",
+      "levels": {}
+    },
+    "new-1-55": {
+      "gpChange": "-8968",
+      "gpTotal": "522675",
+      "levels": {}
+    },
+    "new-1-56": {
+      "gpChange": "-30000",
+      "gpTotal": "492675",
+      "levels": {}
+    },
+    "new-1-57": {
+      "gpChange": "-1615",
+      "gpTotal": "491060",
+      "levels": {}
+    },
+    "new-1-58": {
+      "gpChange": "-20000",
+      "gpTotal": "471060",
+      "levels": {}
+    },
+    "new-1-59": {
+      "gpChange": "-826",
+      "gpTotal": "470234",
+      "levels": {}
+    },
+    "new-1-60": {
+      "gpChange": "-6121",
+      "gpTotal": "464113",
+      "levels": {}
+    },
+    "new-1-61": {
+      "gpChange": "-6293",
+      "gpTotal": "457820",
+      "levels": {}
+    },
+    "new-1-62": {
+      "gpChange": "0",
+      "gpTotal": "457820",
+      "levels": {}
+    },
+    "new-1-63": {
+      "gpChange": "-10500",
+      "gpTotal": "447320",
+      "levels": {}
+    },
+    "new-1-64": {
+      "gpChange": "0",
+      "gpTotal": "447320",
+      "levels": {}
+    },
+    "new-1-65": {
+      "gpChange": "-120",
+      "gpTotal": "447200",
+      "levels": {}
+    },
+    "new-1-66": {
+      "gpChange": "0",
+      "gpTotal": "447200",
+      "levels": {}
+    },
+    "new-1-67": {
+      "gpChange": "0",
+      "gpTotal": "447200",
+      "levels": {}
+    },
+    "new-1-68": {
+      "gpChange": "-5",
+      "gpTotal": "447195",
+      "levels": {}
+    },
+    "new-1-69": {
+      "gpChange": "0",
+      "gpTotal": "447195",
+      "levels": {}
+    },
+    "new-1-70": {
+      "gpChange": "-2520",
+      "gpTotal": "444675",
+      "levels": {}
+    },
+    "new-1-71": {
+      "gpChange": "0",
+      "gpTotal": "444675",
+      "levels": {}
+    },
+    "new-1-72": {
+      "gpChange": "-40719",
+      "gpTotal": "305575",
+      "levels": {}
+    },
+    "new-1-74": {
+      "gpChange": "-225",
+      "gpTotal": "305350",
+      "levels": {}
+    },
+    "new-1-75": {
+      "gpChange": "0",
+      "gpTotal": "305350",
+      "levels": {}
+    },
+    "new-1-76": {
+      "gpChange": "0",
+      "gpTotal": "305350",
+      "levels": {}
+    },
+    "new-1-77": {
+      "gpChange": "0",
+      "gpTotal": "305350",
+      "levels": {}
+    },
+    "new-1-78": {
+      "gpChange": "-2300",
+      "gpTotal": "303050",
+      "levels": {}
+    },
+    "new-1-79": {
+      "gpChange": "9972",
+      "gpTotal": "313022",
+      "levels": {}
+    },
+    "new-1-80": {
+      "gpChange": "0",
+      "gpTotal": "313022",
+      "levels": {}
+    },
+    "new-1-81": {
+      "gpChange": "-40000",
+      "gpTotal": "273022",
+      "levels": {}
+    },
+    "new-1-82": {
+      "gpChange": "-670",
+      "gpTotal": "272352",
+      "levels": {}
+    },
+    "new-1-83": {
+      "gpChange": "-22150",
+      "gpTotal": "250202",
+      "levels": {}
+    },
+    "new-1-84": {
+      "gpChange": "0",
+      "gpTotal": "250202",
+      "levels": {}
+    },
+    "new-1-85": {
+      "gpChange": "-100",
+      "gpTotal": "250102",
+      "levels": {}
+    },
+    "new-1-86": {
+      "gpChange": "-10834",
+      "gpTotal": "239268",
+      "levels": {}
+    },
+    "new-1-87": {
+      "gpChange": "-50",
+      "gpTotal": "239218",
+      "levels": {}
+    },
+    "new-1-88": {
+      "gpChange": "0",
+      "gpTotal": "239218",
+      "levels": {}
+    },
+    "new-1-89": {
+      "gpChange": "-624",
+      "gpTotal": "238594",
+      "levels": {}
+    },
+    "new-1-90": {
+      "gpChange": "500",
+      "gpTotal": "239094",
+      "levels": {
+        "DEF": 500,
+        "HP": 500
+      }
+    },
+    "new-1-91": {
+      "gpChange": "0",
+      "gpTotal": "239094",
+      "levels": {}
+    },
+    "new-1-92": {
+      "gpChange": "4857",
+      "gpTotal": "243951",
+      "levels": {
+        "HRB": 2500
+      }
+    },
+    "new-1-93": {
+      "gpChange": "0",
+      "gpTotal": "243951",
+      "levels": {}
+    },
+    "new-1-94": {
+      "gpChange": "-2000",
+      "gpTotal": "241951",
+      "levels": {}
+    },
+    "new-1-95": {
+      "gpChange": "-6450",
+      "gpTotal": "235501",
+      "levels": {}
+    },
+    "new-1-96": {
+      "gpChange": "700",
+      "gpTotal": "236201",
+      "levels": {}
+    },
+    "new-1-97": {
+      "gpChange": "-222000",
+      "gpTotal": "14201",
+      "levels": {}
+    },
+    "new-1-98": {
+      "gpChange": "-150",
+      "gpTotal": "14051",
+      "levels": {}
+    },
+    "new-2-1": {
+      "gpChange": "136100",
+      "gpTotal": "150151",
+      "levels": {}
+    },
+    "new-2-2": {
+      "gpChange": "2861025",
+      "gpTotal": "3011176",
+      "levels": {}
+    },
+    "new-2-3": {
+      "gpChange": "-357430",
+      "gpTotal": "2653746",
+      "levels": {}
+    },
+    "new-2-4": {
+      "gpChange": "-646250",
+      "gpTotal": "2007496",
+      "levels": {}
+    },
+    "new-2-5": {
+      "gpChange": "-39990",
+      "gpTotal": "1967506",
+      "levels": {
+        "HRB": 5000
+      }
+    },
+    "new-2-6": {
+      "gpChange": "-8750",
+      "gpTotal": "1958756",
+      "levels": {}
+    },
+    "new-2-7": {
+      "gpChange": "-210000",
+      "gpTotal": "1748756",
+      "levels": {}
+    },
+    "new-2-8": {
+      "gpChange": "-130225",
+      "gpTotal": "1618531",
+      "levels": {}
+    },
+    "new-2-9": {
+      "gpChange": "-5000",
+      "gpTotal": "1613531",
+      "levels": {}
+    },
+    "new-2-10": {
+      "gpChange": "-5",
+      "gpTotal": "1613526",
+      "levels": {
+        "MNG": 40000
+      }
+    },
+    "new-2-11": {
+      "gpChange": "0",
+      "gpTotal": "1613526",
+      "levels": {}
+    },
+    "new-2-12": {
+      "gpChange": "-14500",
+      "gpTotal": "1599026",
+      "levels": {}
+    },
+    "new-2-13": {
+      "gpChange": "-17072",
+      "gpTotal": "1581954",
+      "levels": {}
+    },
+    "new-2-14": {
+      "gpChange": "0",
+      "gpTotal": "1581954",
+      "levels": {}
+    },
+    "new-2-15": {
+      "gpChange": "0",
+      "gpTotal": "1581954",
+      "levels": {}
+    },
+    "new-2-16": {
+      "gpChange": "-115",
+      "gpTotal": "1581839",
+      "levels": {}
+    },
+    "new-2-17": {
+      "gpChange": "0",
+      "gpTotal": "1581839",
+      "levels": {}
+    },
+    "new-2-18": {
+      "gpChange": "-82000",
+      "gpTotal": "1499839",
+      "levels": {}
+    },
+    "new-2-19": {
+      "gpChange": "-60800",
+      "gpTotal": "1439039",
+      "levels": {}
+    },
+    "new-2-20": {
+      "gpChange": "0",
+      "gpTotal": "1439039",
+      "levels": {}
+    },
+    "new-2-21": {
+      "gpChange": "20000",
+      "gpTotal": "1459039",
+      "levels": {}
+    },
+    "new-2-22": {
+      "gpChange": "0",
+      "gpTotal": "1459039",
+      "levels": {}
+    },
+    "new-2-23": {
+      "gpChange": "-220",
+      "gpTotal": "1458819",
+      "levels": {}
+    },
+    "new-2-24": {
+      "gpChange": "300",
+      "gpTotal": "1459119",
+      "levels": {}
+    },
+    "new-2-25": {
+      "gpChange": "0",
+      "gpTotal": "1459119",
+      "levels": {}
+    },
+    "new-2-26": {
+      "gpChange": "-29",
+      "gpTotal": "1459090",
+      "levels": {}
+    },
+    "new-2-27": {
+      "gpChange": "0",
+      "gpTotal": "1459090",
+      "levels": {}
+    },
+    "new-2-28": {
+      "gpChange": "0",
+      "gpTotal": "1459090",
+      "levels": {}
+    },
+    "new-2-29": {
+      "gpChange": "0",
+      "gpTotal": "1459090",
+      "levels": {}
+    },
+    "new-2-30": {
+      "gpChange": "5620",
+      "gpTotal": "1464710",
+      "levels": {}
+    },
+    "new-2-31": {
+      "gpChange": "-179",
+      "gpTotal": "1464531",
+      "levels": {}
+    },
+    "new-2-32": {
+      "gpChange": "0",
+      "gpTotal": "1464531",
+      "levels": {}
+    },
+    "new-2-33": {
+      "gpChange": "-504900",
+      "gpTotal": "959631",
+      "levels": {
+        "RNG": 2000,
+        "HRB": 2000,
+        "FLE": 2000
+      }
+    },
+    "new-2-1100": {
+      "gpChange": "-287500",
+      "gpTotal": "672131",
+      "levels": {}
+    },
+    "new-2-34": {
+      "gpChange": "0",
+      "gpTotal": "672771",
+      "levels": {}
+    },
+    "new-2-35": {
+      "gpChange": "0",
+      "gpTotal": "672771",
+      "levels": {}
+    },
+    "new-2-36": {
+      "gpChange": "0",
+      "gpTotal": "672771",
+      "levels": {}
+    },
+    "new-2-37": {
+      "gpChange": "0",
+      "gpTotal": "672771",
+      "levels": {}
+    },
+    "new-2-38": {
+      "gpChange": "-23265",
+      "gpTotal": "649506",
+      "levels": {}
+    },
+    "new-2-39": {
+      "gpChange": "0",
+      "gpTotal": "649506",
+      "levels": {}
+    },
+    "new-2-40": {
+      "gpChange": "-26025",
+      "gpTotal": "623481",
+      "levels": {}
+    },
+    "new-2-41": {
+      "gpChange": "-78000",
+      "gpTotal": "545481",
+      "levels": {}
+    },
+    "new-2-42": {
+      "gpChange": "-95000",
+      "gpTotal": "450481",
+      "levels": {}
+    },
+    "new-2-43": {
+      "gpChange": "198000",
+      "gpTotal": "648481",
+      "levels": {}
+    },
+    "new-2-44": {
+      "gpChange": "-750",
+      "gpTotal": "647731",
+      "levels": {}
+    },
+    "new-2-45": {
+      "gpChange": "-570000",
+      "gpTotal": "77731",
+      "levels": {}
+    },
+    "new-2-46": {
+      "gpChange": "0",
+      "gpTotal": "77731",
+      "levels": {}
+    },
+    "new-2-47": {
+      "gpChange": "-60000",
+      "gpTotal": "17731",
+      "levels": {}
+    },
+    "new-2-48": {
+      "gpChange": "42000",
+      "gpTotal": "59731",
+      "levels": {}
+    },
+    "new-2-49": {
+      "gpChange": "0",
+      "gpTotal": "59731",
+      "levels": {}
+    },
+    "new-2-50": {
+      "gpChange": "0",
+      "gpTotal": "59731",
+      "levels": {}
+    },
+    "new-2-51": {
+      "gpChange": "-29800",
+      "gpTotal": "29931",
+      "levels": {}
+    },
+    "new-2-52": {
+      "gpChange": "0",
+      "gpTotal": "29931",
+      "levels": {}
+    },
+    "new-2-53": {
+      "gpChange": "0",
+      "gpTotal": "29931",
+      "levels": {}
+    },
+    "new-2-54": {
+      "gpChange": "0",
+      "gpTotal": "29931",
+      "levels": {}
+    },
+    "new-2-55": {
+      "gpChange": "2000",
+      "gpTotal": "31931",
+      "levels": {}
+    },
+    "new-2-56": {
+      "gpChange": "0",
+      "gpTotal": "31931",
+      "levels": {}
+    },
+    "new-2-57": {
+      "gpChange": "0",
+      "gpTotal": "31931",
+      "levels": {}
+    },
+    "new-2-58": {
+      "gpChange": "0",
+      "gpTotal": "31931",
+      "levels": {}
+    },
+    "new-2-59": {
+      "gpChange": "-2000",
+      "gpTotal": "29931",
+      "levels": {}
+    },
+    "new-2-60": {
+      "gpChange": "0",
+      "gpTotal": "29931",
+      "levels": {}
+    },
+    "new-2-61": {
+      "gpChange": "0",
+      "gpTotal": "29931",
+      "levels": {}
+    },
+    "new-2-62": {
+      "gpChange": "0",
+      "gpTotal": "29931",
+      "levels": {}
+    },
+    "new-2-63": {
+      "gpChange": "0",
+      "gpTotal": "29931",
+      "levels": {}
+    },
+    "new-2-64": {
+      "gpChange": "0",
+      "gpTotal": "29931",
+      "levels": {}
+    },
+    "new-2-65": {
+      "gpChange": "-1300",
+      "gpTotal": "28631",
+      "levels": {}
+    },
+    "new-2-66": {
+      "gpChange": "0",
+      "gpTotal": "28631",
+      "levels": {}
+    },
+    "new-2-67": {
+      "gpChange": "750",
+      "gpTotal": "29381",
+      "levels": {}
+    },
+    "new-2-68": {
+      "gpChange": "0",
+      "gpTotal": "29381",
+      "levels": {}
+    },
+    "new-2-69": {
+      "gpChange": "19200",
+      "gpTotal": "48581",
+      "levels": {}
+    },
+    "new-2-70": {
+      "gpChange": "188286",
+      "gpTotal": "236867",
+      "levels": {}
+    },
+    "new-2-71": {
+      "gpChange": "25000",
+      "gpTotal": "261867",
+      "levels": {}
+    },
+    "new-2-72": {
+      "gpChange": "0",
+      "gpTotal": "261867",
+      "levels": {}
+    },
+    "new-2-73": {
+      "gpChange": "-130000",
+      "gpTotal": "131867",
+      "levels": {}
+    },
+    "new-2-74": {
+      "gpChange": "-9000",
+      "gpTotal": "122867",
+      "levels": {}
+    },
+    "new-2-75": {
+      "gpChange": "0",
+      "gpTotal": "122867",
+      "levels": {}
+    },
+    "new-2-76": {
+      "gpChange": "0",
+      "gpTotal": "122867",
+      "levels": {}
+    },
+    "new-2-77": {
+      "gpChange": "0",
+      "gpTotal": "122867",
+      "levels": {}
+    },
+    "new-2-78": {
+      "gpChange": "1661582",
+      "gpTotal": "1784449",
+      "levels": {}
+    },
+    "new-2-79": {
+      "gpChange": "-80000",
+      "gpTotal": "1704449",
+      "levels": {}
+    },
+    "new-2-80": {
+      "gpChange": "-20000",
+      "gpTotal": "1684449",
+      "levels": {}
+    },
+    "new-2-81": {
+      "gpChange": "-3200",
+      "gpTotal": "1681249",
+      "levels": {}
+    },
+    "new-2-82": {
+      "gpChange": "-60900",
+      "gpTotal": "1620349",
+      "levels": {}
+    },
+    "new-2-83": {
+      "gpChange": "2184000",
+      "gpTotal": "3804349",
+      "levels": {}
+    },
+    "new-2-84": {
+      "gpChange": "-15000",
+      "gpTotal": "3789349",
+      "levels": {
+        "SMI": 36000
+      }
+    },
+    "new-2-9230": {
+      "gpChange": "-1436430",
+      "gpTotal": "2352919",
+      "levels": {}
+    },
+    "new-2-4771": {
+      "gpChange": "-1433475",
+      "gpTotal": "919444",
+      "levels": {}
+    },
+    "new-2-85": {
+      "gpChange": "20500000",
+      "gpTotal": "21419444",
+      "levels": {}
+    },
+    "new-2-86": {
+      "gpChange": "-1700000",
+      "gpTotal": "19719444",
+      "levels": {}
+    },
+    "new-2-87": {
+      "gpChange": "0",
+      "gpTotal": "19719444",
+      "levels": {}
+    },
+    "new-2-88": {
+      "gpChange": "0",
+      "gpTotal": "19719444",
+      "levels": {}
+    },
+    "new-2-89": {
+      "gpChange": "0",
+      "gpTotal": "19719444",
+      "levels": {}
+    },
+    "new-2-90": {
+      "gpChange": "0",
+      "gpTotal": "19719444",
+      "levels": {}
+    },
+    "new-2-91": {
+      "gpChange": "0",
+      "gpTotal": "19719444",
+      "levels": {}
+    },
+    "new-2-92": {
+      "gpChange": "0",
+      "gpTotal": "19719444",
+      "levels": {}
+    },
+    "new-2-93": {
+      "gpChange": "0",
+      "gpTotal": "19719444",
+      "levels": {}
+    },
+    "new-2-94": {
+      "gpChange": "0",
+      "gpTotal": "19719444",
+      "levels": {}
+    },
+    "new-2-95": {
+      "gpChange": "0",
+      "gpTotal": "19719444",
+      "levels": {}
+    },
+    "new-2-96": {
+      "gpChange": "0",
+      "gpTotal": "19719444",
+      "levels": {}
+    },
+    "new-2-97": {
+      "gpChange": "0",
+      "gpTotal": "19719444",
+      "levels": {}
+    },
+    "new-2-98": {
+      "gpChange": "10000",
+      "gpTotal": "19729444",
+      "levels": {}
+    },
+    "new-2-99": {
+      "gpChange": "15000",
+      "gpTotal": "19744444",
+      "levels": {}
+    },
+    "new-3-1": {
+      "gpChange": "-26000",
+      "gpTotal": "19718444",
+      "levels": {}
+    },
+    "new-3-2": {
+      "gpChange": "0",
+      "gpTotal": "19718444",
+      "levels": {}
+    },
+    "new-3-3": {
+      "gpChange": "-4798240",
+      "gpTotal": "14920204",
+      "levels": {}
+    },
+    "new-3-4": {
+      "gpChange": "0",
+      "gpTotal": "14920204",
+      "levels": {
+        "HRB": 15000
+      }
+    },
+    "new-3-5": {
+      "gpChange": "0",
+      "gpTotal": "14920204",
+      "levels": {}
+    },
+    "new-3-6": {
+      "gpChange": "-128800",
+      "gpTotal": "14791404",
+      "levels": {
+        "THI": 1316250
+      }
+    },
+    "new-3-7": {
+      "gpChange": "-3000000",
+      "gpTotal": "11791404",
+      "levels": {}
+    },
+    "new-3-8": {
+      "gpChange": "-10541404",
+      "gpTotal": "1250000",
+      "levels": {}
+    },
+    "new-3-9": {
+      "gpChange": "0",
+      "gpTotal": "1250000",
+      "levels": {}
+    },
+    "new-3-10": {
+      "gpChange": "-750000",
+      "gpTotal": "500000",
+      "levels": {}
+    },
+    "new-3-11": {
+      "gpChange": "0",
+      "gpTotal": "500000",
+      "levels": {}
+    },
+    "new-3-12": {
+      "gpChange": "-482500",
+      "gpTotal": "17500",
+      "levels": {}
+    },
+    "new-3-13": {
+      "gpChange": "0",
+      "gpTotal": "17500",
+      "levels": {}
+    },
+    "new-3-14": {
+      "gpChange": "0",
+      "gpTotal": "17500",
+      "levels": {}
+    },
+    "new-3-15": {
+      "gpChange": "0",
+      "gpTotal": "17500",
+      "levels": {}
+    },
+    "new-3-16": {
+      "gpChange": "43500000",
+      "gpTotal": "43517500",
+      "levels": {}
+    },
+    "new-3-17": {
+      "gpChange": "0",
+      "gpTotal": "43517500",
+      "levels": {}
+    },
+    "new-3-18": {
+      "gpChange": "3000000",
+      "gpTotal": "46517500",
+      "levels": {}
+    },
+    "new-3-19": {
+      "gpChange": "2500000",
+      "gpTotal": "49017500",
+      "levels": {}
+    },
+    "new-3-20": {
+      "gpChange": "15186249",
+      "gpTotal": "64203749",
+      "levels": {
+        "HRB": 50000
+      }
+    },
+    "new-3-21": {
+      "gpChange": "-4000000",
+      "gpTotal": "60203749",
+      "levels": {}
+    },
+    "new-3-22": {
+      "gpChange": "0",
+      "gpTotal": "60203749",
+      "levels": {}
+    },
+    "new-3-23": {
+      "gpChange": "0",
+      "gpTotal": "60203749",
+      "levels": {}
+    },
+    "new-3-24": {
+      "gpChange": "0",
+      "gpTotal": "60203749",
+      "levels": {}
+    },
+    "new-3-25": {
+      "gpChange": "0",
+      "gpTotal": "60203749",
+      "levels": {}
+    },
+    "new-3-26": {
+      "gpChange": "-1880000",
+      "gpTotal": "58323749",
+      "levels": {}
+    },
+    "new-3-27": {
+      "gpChange": "-33210000",
+      "gpTotal": "25113749",
+      "levels": {}
+    },
+    "new-3-28": {
+      "gpChange": "0",
+      "gpTotal": "25113749",
+      "levels": {}
+    },
+    "new-3-29": {
+      "gpChange": "-19096492",
+      "gpTotal": "6017257",
+      "levels": {}
+    }
+  }
+}

@@ -1,13 +1,17 @@
 package com.bruhsailerguide.panel;
 
+import com.bruhsailerguide.data.GuideAction;
 import com.bruhsailerguide.data.GuideStep;
 import com.bruhsailerguide.data.StepStats;
 import java.awt.Color;
 import java.awt.Font;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
+import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
@@ -15,12 +19,11 @@ import javax.swing.JCheckBox;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
 
 class StepDetailPanel extends JPanel
 {
 	private final JLabel headerLabel;
-	private final JTextArea textArea;
+	private final JPanel actionListPanel;
 	private final JLabel gpStackLabel;
 	private final JLabel itemsNeededLabel;
 	private final JLabel totalTimeLabel;
@@ -28,6 +31,9 @@ class StepDetailPanel extends JPanel
 	private final JLabel gpTotalLabel;
 	private final JLabel skillChangesLabel;
 	private final JCheckBox completeCheckBox;
+
+	private BiConsumer<String, Boolean> actionToggleListener;
+	private Consumer<Boolean> stepToggleListener;
 
 	StepDetailPanel()
 	{
@@ -38,11 +44,9 @@ class StepDetailPanel extends JPanel
 		headerLabel.setFont(headerLabel.getFont().deriveFont(Font.BOLD, 14f));
 		add(headerLabel);
 
-		textArea = new JTextArea(5, 20);
-		textArea.setLineWrap(true);
-		textArea.setWrapStyleWord(true);
-		textArea.setEditable(false);
-		add(new JScrollPane(textArea));
+		actionListPanel = new JPanel();
+		actionListPanel.setLayout(new BoxLayout(actionListPanel, BoxLayout.Y_AXIS));
+		add(new JScrollPane(actionListPanel));
 
 		gpStackLabel = new JLabel();
 		add(gpStackLabel);
@@ -58,22 +62,52 @@ class StepDetailPanel extends JPanel
 		add(skillChangesLabel);
 
 		completeCheckBox = new JCheckBox("Mark complete");
+		completeCheckBox.addActionListener(e -> {
+			if (stepToggleListener != null)
+			{
+				stepToggleListener.accept(completeCheckBox.isSelected());
+			}
+		});
 		add(completeCheckBox);
+	}
+
+	void setOnActionToggle(BiConsumer<String, Boolean> listener)
+	{
+		this.actionToggleListener = listener;
 	}
 
 	void setOnCompleteToggle(Consumer<Boolean> listener)
 	{
-		for (java.awt.event.ActionListener l : completeCheckBox.getActionListeners())
-		{
-			completeCheckBox.removeActionListener(l);
-		}
-		completeCheckBox.addActionListener(e -> listener.accept(completeCheckBox.isSelected()));
+		this.stepToggleListener = listener;
 	}
 
-	void update(GuideStep step, GuideStep previousStep, boolean complete)
+	void update(GuideStep step, GuideStep previousStep, boolean complete, Set<String> completedActionIds)
 	{
 		headerLabel.setText(step.getNumber() + ". " + step.getText());
-		textArea.setText(step.getText());
+
+		actionListPanel.removeAll();
+		List<GuideAction> actions = step.getActions() != null ? step.getActions() : Collections.emptyList();
+		if (actions.isEmpty())
+		{
+			actionListPanel.add(new JLabel(step.getText()));
+		}
+		else
+		{
+			for (GuideAction action : actions)
+			{
+				JCheckBox actionCheckBox = new JCheckBox(action.getText());
+				actionCheckBox.setSelected(completedActionIds != null && completedActionIds.contains(action.getId()));
+				actionCheckBox.addActionListener(e -> {
+					if (actionToggleListener != null)
+					{
+						actionToggleListener.accept(action.getId(), actionCheckBox.isSelected());
+					}
+				});
+				actionListPanel.add(actionCheckBox);
+			}
+		}
+		actionListPanel.revalidate();
+		actionListPanel.repaint();
 
 		gpStackLabel.setText("GP Stack: " + (step.getGpStack() != null ? step.getGpStack() : "-"));
 		itemsNeededLabel.setText("Items: " + (step.getItemsNeeded() != null ? step.getItemsNeeded() : "-"));
@@ -98,6 +132,28 @@ class StepDetailPanel extends JPanel
 		}
 
 		completeCheckBox.setSelected(complete);
+	}
+
+	void setAllActionsSelected(boolean selected)
+	{
+		for (int i = 0; i < actionListPanel.getComponentCount(); i++)
+		{
+			if (actionListPanel.getComponent(i) instanceof JCheckBox)
+			{
+				JCheckBox cb = (JCheckBox) actionListPanel.getComponent(i);
+				// Avoid firing listener recursively by temporarily removing it.
+				java.awt.event.ActionListener[] listeners = cb.getActionListeners();
+				for (java.awt.event.ActionListener l : listeners)
+				{
+					cb.removeActionListener(l);
+				}
+				cb.setSelected(selected);
+				for (java.awt.event.ActionListener l : listeners)
+				{
+					cb.addActionListener(l);
+				}
+			}
+		}
 	}
 
 	JCheckBox getCompleteCheckBox()

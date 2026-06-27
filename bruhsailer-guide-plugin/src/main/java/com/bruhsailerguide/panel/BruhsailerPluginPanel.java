@@ -90,11 +90,32 @@ public class BruhsailerPluginPanel extends PluginPanel
 		add(treeScrollPane, BorderLayout.CENTER);
 
 		detailPanel = new StepDetailPanel();
+		detailPanel.setOnActionToggle((actionId, selected) ->
+		{
+			progressTracker.setComplete(actionId, selected);
+			GuideStep step = dataManager.findStep(currentStepId);
+			if (step != null && step.getActions() != null)
+			{
+				boolean allActionsComplete = step.getActions().stream()
+					.allMatch(action -> progressTracker.isComplete(action.getId()));
+				if (allActionsComplete && !progressTracker.isComplete(currentStepId))
+				{
+					progressTracker.setComplete(currentStepId, true);
+					detailPanel.getCompleteCheckBox().setSelected(true);
+				}
+				else if (!allActionsComplete && progressTracker.isComplete(currentStepId))
+				{
+					progressTracker.setComplete(currentStepId, false);
+					detailPanel.getCompleteCheckBox().setSelected(false);
+				}
+			}
+		});
 		detailPanel.setOnCompleteToggle(selected ->
 		{
 			if (currentStepId != null)
 			{
 				progressTracker.setComplete(currentStepId, selected);
+				detailPanel.setAllActionsSelected(selected);
 			}
 		});
 		add(detailPanel, BorderLayout.SOUTH);
@@ -115,7 +136,7 @@ public class BruhsailerPluginPanel extends PluginPanel
 			if (step != null)
 			{
 				currentStepId = step.getId();
-				detailPanel.update(step, findPreviousStep(step.getId()), progressTracker.isComplete(step.getId()));
+				detailPanel.update(step, findPreviousStep(step.getId()), progressTracker.isComplete(step.getId()), progressTracker.getAllCompleted());
 				plugin.setCurrentStepId(step.getId());
 			}
 		}
@@ -176,7 +197,7 @@ public class BruhsailerPluginPanel extends PluginPanel
 			GuideStep step = dataManager.findStep(stepId);
 			if (step != null)
 			{
-				detailPanel.update(step, findPreviousStep(stepId), progressTracker.isComplete(stepId));
+				detailPanel.update(step, findPreviousStep(stepId), progressTracker.isComplete(stepId), progressTracker.getAllCompleted());
 			}
 		}
 	}

@@ -5,208 +5,247 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const INDEX_PATH = path.resolve(__dirname, 'quest-helper-index.json');
+const REPO_DIR = path.resolve(__dirname, '.questhelper-cache', 'quest-helper');
+const QUESTS_DIR = path.resolve(REPO_DIR, 'src/main/java/com/questhelper/helpers/quests');
+const MINIQUESTS_DIR = path.resolve(REPO_DIR, 'src/main/java/com/questhelper/helpers/miniquests');
 const MAPPING_PATH = path.resolve(__dirname, 'quest-mapping.json');
-const CACHE_DIR = path.resolve(__dirname, '.questhelper-cache');
-
-const USER_AGENT = 'bruhsailer-guide-plugin/0.1 (https://github.com/bobthabuilda; runelite plugin)';
-const RAW_BASE = 'https://raw.githubusercontent.com/Zoinkwiz/quest-helper/master/src/main/java/com/questhelper/helpers/quests';
 
 let questIndexMap = null;
 let questMapping = null;
 
-function loadQuestIndex() {
-  if (questIndexMap) return questIndexMap;
-
-  const entries = JSON.parse(fs.readFileSync(INDEX_PATH, 'utf8'));
-  const map = new Map();
-  const grouped = new Map();
-
-  for (const { dir, file } of entries) {
-    if (!grouped.has(dir)) grouped.set(dir, []);
-    grouped.get(dir).push(file);
-  }
-
-  for (const [dir, files] of grouped) {
-    const mainFile = pickMainFile(dir, files);
-    map.set(dir, mainFile);
-  }
-
-  questIndexMap = map;
-  return questIndexMap;
-}
-
-function pickMainFile(dir, files) {
-  let best = files[0];
-  let bestScore = 0;
-
-  for (const file of files) {
-    const base = file.replace(/\.java$/i, '').toLowerCase();
-    const dirL = dir.toLowerCase();
-    let score = 0;
-
-    if (base === dirL) {
-      score = 100;
-    } else if (base === dirL.replace(/^the/, '')) {
-      score = 90;
-    } else if (base.startsWith(dirL) || dirL.startsWith(base)) {
-      score = 80;
-    } else if (base.includes(dirL) || dirL.includes(base)) {
-      score = 60;
-    } else if (/start$/i.test(base)) {
-      score = 50;
-    } else if (/main$/i.test(base)) {
-      score = 40;
-    }
-
-    if (score > bestScore) {
-      bestScore = score;
-      best = file;
-    }
-  }
-
-  return best;
-}
-
-function loadMapping() {
-  if (questMapping) return questMapping;
-  if (!fs.existsSync(MAPPING_PATH)) {
-    questMapping = {};
-    return questMapping;
-  }
-  questMapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf8'));
-  return questMapping;
+function loadQuestMapping() {
+	if (questMapping) return questMapping;
+	if (!fs.existsSync(MAPPING_PATH)) {
+		questMapping = {};
+		return questMapping;
+	}
+	questMapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf8'));
+	return questMapping;
 }
 
 function normalizeQuestName(name) {
-  if (!name) return '';
-  let normalized = name.toLowerCase();
-  normalized = normalized.replace(/'/g, '');
-  normalized = normalized.replace(/[^a-z0-9]/g, '');
-  normalized = normalized.replace(/quest$/, '');
-  return normalized;
+	if (!name) return '';
+	let normalized = name.toLowerCase();
+	normalized = normalized.replace(/'/g, '');
+	normalized = normalized.replace(/[^a-z0-9]/g, '');
+	normalized = normalized.replace(/quest$/, '');
+	return normalized;
+}
+
+function listRepoQuestDirs() {
+	const dirs = [];
+	for (const baseDir of [QUESTS_DIR, MINIQUESTS_DIR]) {
+		if (!fs.existsSync(baseDir)) continue;
+		for (const entry of fs.readdirSync(baseDir, { withFileTypes: true })) {
+			if (entry.isDirectory()) {
+				const fullPath = path.join(baseDir, entry.name);
+				const files = fs.readdirSync(fullPath).filter(f => f.endsWith('.java'));
+				if (files.length > 0) {
+					dirs.push({ dir: entry.name, files, baseDir });
+				}
+			}
+		}
+	}
+	return dirs;
+}
+
+function pickMainFile(dir, files) {
+	let best = files[0];
+	let bestScore = 0;
+
+	for (const file of files) {
+		const base = file.replace(/\.java$/i, '').toLowerCase();
+		const dirL = dir.toLowerCase();
+		let score = 0;
+
+		if (base === dirL) {
+			score = 100;
+		} else if (base === dirL.replace(/^the/, '')) {
+			score = 90;
+		} else if (base.startsWith(dirL) || dirL.startsWith(base)) {
+			score = 80;
+		} else if (base.includes(dirL) || dirL.includes(base)) {
+			score = 60;
+		} else if (/start$/i.test(base)) {
+			score = 50;
+		} else if (/main$/i.test(base)) {
+			score = 40;
+		}
+
+		if (score > bestScore) {
+			bestScore = score;
+			best = file;
+		}
+	}
+
+	return best;
+}
+
+function loadQuestIndex() {
+	if (questIndexMap) return questIndexMap;
+
+	const dirs = listRepoQuestDirs();
+	questIndexMap = new Map();
+	for (const { dir, files, baseDir } of dirs) {
+		questIndexMap.set(dir, { file: pickMainFile(dir, files), baseDir });
+	}
+	return questIndexMap;
+}
+
+function levenshtein(a, b) {
+	const matrix = Array.from({ length: a.length + 1 }, (_, i) => [i]);
+	for (let j = 1; j <= b.length; j++) {
+		matrix[0][j] = j;
+	}
+	for (let i = 1; i <= a.length; i++) {
+		for (let j = 1; j <= b.length; j++) {
+			const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+			matrix[i][j] = Math.min(
+				matrix[i - 1][j] + 1,
+				matrix[i][j - 1] + 1,
+				matrix[i - 1][j - 1] + cost
+			);
+		}
+	}
+	return matrix[a.length][b.length];
+}
+
+function fuzzyFindQuestDir(normalized, index) {
+	if (normalized.length < 4) return null;
+
+	let bestDir = null;
+	let bestDist = Infinity;
+	for (const dir of index.keys()) {
+		const dist = levenshtein(normalized, dir);
+		if (dist < bestDist && dist <= 2) {
+			bestDist = dist;
+			bestDir = dir;
+		}
+	}
+	return bestDir;
 }
 
 function findQuestFile(questName) {
-  const mapping = loadMapping();
-  const lookupName = questName.toLowerCase().trim();
+	const mapping = loadQuestMapping();
+	const lookupName = questName.toLowerCase().trim();
 
-  if (mapping[lookupName]) {
-    questName = mapping[lookupName];
-  }
+	if (mapping[lookupName]) {
+		questName = mapping[lookupName];
+	}
 
-  const normalized = normalizeQuestName(questName);
-  if (!normalized) return null;
+	const normalized = normalizeQuestName(questName);
+	if (!normalized) return null;
 
-  const index = loadQuestIndex();
+	const index = loadQuestIndex();
 
-  if (index.has(normalized)) {
-    return { dir: normalized, file: index.get(normalized) };
-  }
+	if (index.has(normalized)) {
+		const { file, baseDir } = index.get(normalized);
+		return { dir: normalized, file, baseDir };
+	}
 
-  const withThe = 'the' + normalized;
-  if (index.has(withThe)) {
-    return { dir: withThe, file: index.get(withThe) };
-  }
+	const withThe = 'the' + normalized;
+	if (index.has(withThe)) {
+		const { file, baseDir } = index.get(withThe);
+		return { dir: withThe, file, baseDir };
+	}
 
-  if (normalized.endsWith('s')) {
-    const withoutS = normalized.slice(0, -1);
-    if (index.has(withoutS)) {
-      return { dir: withoutS, file: index.get(withoutS) };
-    }
-  }
+	if (normalized.endsWith('s')) {
+		const withoutS = normalized.slice(0, -1);
+		if (index.has(withoutS)) {
+			const { file, baseDir } = index.get(withoutS);
+			return { dir: withoutS, file, baseDir };
+		}
+	}
 
-  // Try stripping trailing apostrophe-s that might have been removed
-  if (normalized.endsWith('s')) {
-    const withoutApostropheS = normalized.slice(0, -2);
-    if (index.has(withoutApostropheS)) {
-      return { dir: withoutApostropheS, file: index.get(withoutApostropheS) };
-    }
-  }
+	if (normalized.endsWith('s')) {
+		const withoutApostropheS = normalized.slice(0, -2);
+		if (index.has(withoutApostropheS)) {
+			const { file, baseDir } = index.get(withoutApostropheS);
+			return { dir: withoutApostropheS, file, baseDir };
+		}
+	}
 
-  return null;
+	const fuzzyDir = fuzzyFindQuestDir(normalized, index);
+	if (fuzzyDir) {
+		const { file, baseDir } = index.get(fuzzyDir);
+		return { dir: fuzzyDir, file, baseDir };
+	}
+
+	return null;
+}
+
+function getQuestSourcePath(target) {
+	const { dir, file, baseDir } = target;
+	if (baseDir && fs.existsSync(path.join(baseDir, dir, file))) {
+		return path.join(baseDir, dir, file);
+	}
+	for (const candidate of [QUESTS_DIR, MINIQUESTS_DIR]) {
+		const fullPath = path.join(candidate, dir, file);
+		if (fs.existsSync(fullPath)) {
+			return fullPath;
+		}
+	}
+	return null;
+}
+
+function getQuestSource(questName) {
+	const target = findQuestFile(questName);
+	if (!target) return null;
+	const sourcePath = getQuestSourcePath(target);
+	if (!sourcePath) return null;
+	return fs.readFileSync(sourcePath, 'utf8');
 }
 
 function extractBalancedArgs(content, startIdx) {
-  let depth = 1;
-  let i = startIdx;
-  while (i < content.length && depth > 0) {
-    if (content[i] === '(') depth++;
-    else if (content[i] === ')') depth--;
-    i++;
-  }
-  if (depth !== 0) return null;
-  return content.slice(startIdx, i - 1);
+	let depth = 1;
+	let i = startIdx;
+	while (i < content.length && depth > 0) {
+		if (content[i] === '(') depth++;
+		else if (content[i] === ')') depth--;
+		i++;
+	}
+	if (depth !== 0) return null;
+	return content.slice(startIdx, i - 1);
 }
 
 function parseWorldPoint(args) {
-  const wpMatch = args.match(/new\s+WorldPoint\s*\(\s*(-?\d+)\s*,\s*(-?\d+)(?:\s*,\s*(-?\d+))?\s*\)/);
-  if (!wpMatch) return null;
-  return {
-    x: parseInt(wpMatch[1], 10),
-    y: parseInt(wpMatch[2], 10),
-    plane: wpMatch[3] ? parseInt(wpMatch[3], 10) : 0
-  };
+	const wpMatch = args.match(/new\s+WorldPoint\s*\(\s*(-?\d+)\s*,\s*(-?\d+)(?:\s*,\s*(-?\d+))?\s*\)/);
+	if (!wpMatch) return null;
+	return {
+		x: parseInt(wpMatch[1], 10),
+		y: parseInt(wpMatch[2], 10),
+		plane: wpMatch[3] ? parseInt(wpMatch[3], 10) : 0
+	};
 }
 
 async function resolveQuestHelper(questName) {
-  const target = findQuestFile(questName);
-  if (!target) return null;
+	const content = getQuestSource(questName);
+	if (!content) return null;
 
-  const { dir, file } = target;
-  const cacheFile = path.join(CACHE_DIR, `${dir}_${file}`);
+	const stepRegex = /new\s+(NpcStep|ObjectStep|DetailedQuestStep|ItemStep)\s*\(/s;
+	const match = content.match(stepRegex);
+	if (!match) return null;
 
-  let content;
-  if (fs.existsSync(cacheFile)) {
-    content = fs.readFileSync(cacheFile, 'utf8');
-  } else {
-    await sleep(300);
+	const stepType = match[1];
+	const args = extractBalancedArgs(content, match.index + match[0].length);
+	if (!args) return null;
 
-    const url = `${RAW_BASE}/${dir}/${file}`;
-    try {
-      const response = await fetch(url, {
-        headers: { 'User-Agent': USER_AGENT }
-      });
-      if (!response.ok) {
-        return null;
-      }
-      content = await response.text();
+	const worldPoint = parseWorldPoint(args);
+	if (!worldPoint) return null;
 
-      if (!fs.existsSync(CACHE_DIR)) {
-        fs.mkdirSync(CACHE_DIR, { recursive: true });
-      }
-      fs.writeFileSync(cacheFile, content, 'utf8');
-    } catch (err) {
-      return null;
-    }
-  }
-
-  const stepRegex = /new\s+(NpcStep|ObjectStep|DetailedQuestStep|ItemStep)\s*\(/s;
-  const match = content.match(stepRegex);
-  if (!match) return null;
-
-  const stepType = match[1];
-  const args = extractBalancedArgs(content, match.index + match[0].length);
-  if (!args) return null;
-
-  const worldPoint = parseWorldPoint(args);
-  if (!worldPoint) return null;
-
-  return {
-    worldPoint,
-    npcIds: [],
-    objectIds: [],
-    stepType
-  };
-}
-
-function sleep(ms) {
-  return new Promise(r => setTimeout(r, ms));
+	return {
+		worldPoint,
+		npcIds: [],
+		objectIds: [],
+		stepType
+	};
 }
 
 export {
-  loadQuestIndex,
-  normalizeQuestName,
-  findQuestFile,
-  resolveQuestHelper
+	loadQuestIndex,
+	normalizeQuestName,
+	findQuestFile,
+	getQuestSource,
+	getQuestSourcePath,
+	resolveQuestHelper
 };
